@@ -985,13 +985,14 @@ pre .javascript .function {
   color: var(--brand-hover-color);
 }
 .site-title {
+  color: #000;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   margin: 0;
 }
 .site-subtitle {
-  color: #ddd;
+  color: #000;
   font-size: 0.8125em;
   margin: 10px 0;
 }
@@ -1169,7 +1170,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #12ff41;
+  background: #ffbd88;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2230,7 +2231,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .site-brand-container {
-  background: #222;
+  background: #f3cee8;
 }
 @media (max-width: 991px) {
   .site-brand-container {
