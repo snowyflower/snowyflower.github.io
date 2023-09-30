@@ -4,11 +4,30 @@
   
     
     <entry>
+      <title>My New Way</title>
+      <link href="/2023/09/30/My-New-Way/"/>
+      <url>/2023/09/30/My-New-Way/</url>
+      
+        <content type="html"><![CDATA[<p>“””<br>本代码是学习演示过程<br>“””</p><h1 id="print语句使用——用于输出目标"><a href="#print语句使用——用于输出目标" class="headerlink" title="print语句使用——用于输出目标"></a>print语句使用——用于输出目标</h1><p>print(“Hello World”)</p><h1 id="赋予变量值"><a href="#赋予变量值" class="headerlink" title="赋予变量值"></a>赋予变量值</h1><p>money&#x3D;50<br>print(“钱包里面有: “, money)</p><h1 id="变量的加减变化"><a href="#变量的加减变化" class="headerlink" title="变量的加减变化"></a>变量的加减变化</h1><p>money&#x3D;money-10<br>print(“购买了冰淇淋花费了10元,还剩余: “, money,”元”)</p><h1 id="type-语句的使用——用于查看变量存储数据类型"><a href="#type-语句的使用——用于查看变量存储数据类型" class="headerlink" title="type()语句的使用——用于查看变量存储数据类型"></a>type()语句的使用——用于查看变量存储数据类型</h1><p>string_type&#x3D;type(“卧室嫩叠”)<br>int_type&#x3D;type(233)<br>float_type&#x3D;type(1.666)<br>print(string_type,int_type,float_type)</p><h1 id="str-x-语句——用于将数字类型转换为字符串"><a href="#str-x-语句——用于将数字类型转换为字符串" class="headerlink" title="str(x)语句——用于将数字类型转换为字符串"></a>str(x)语句——用于将数字类型转换为字符串</h1><p>num_str&#x3D;str(11)<br>float_str&#x3D;str(11.11)<br>print(type(num_str),num_str,type(float_str),float_str)</p><h1 id="int-x-和float-x-语句——用于将字符串转换成数字而——浮点转整数与整数转浮点数"><a href="#int-x-和float-x-语句——用于将字符串转换成数字而——浮点转整数与整数转浮点数" class="headerlink" title="int(x)和float(x)语句——用于将字符串转换成数字而——浮点转整数与整数转浮点数"></a>int(x)和float(x)语句——用于将字符串转换成数字而——浮点转整数与整数转浮点数</h1><p>num_int&#x3D;int(“11.1”)<br>num_float&#x3D;float(“11”)<br>print(type(num_int),num_int,type(num_float),num_float)</p><h1 id="错误示例——将字符串转换为数字的前提是字符串为数字"><a href="#错误示例——将字符串转换为数字的前提是字符串为数字" class="headerlink" title="错误示例——将字符串转换为数字的前提是字符串为数字"></a>错误示例——将字符串转换为数字的前提是字符串为数字</h1><h1 id="num1-x3D-int-“卧室嫩叠”"><a href="#num1-x3D-int-“卧室嫩叠”" class="headerlink" title="num1&#x3D;int(“卧室嫩叠”)"></a>num1&#x3D;int(“卧室嫩叠”)</h1><h1 id="num2-x3D-float-“卧室嫩叠”"><a href="#num2-x3D-float-“卧室嫩叠”" class="headerlink" title="num2&#x3D;float(“卧室嫩叠”)"></a>num2&#x3D;float(“卧室嫩叠”)</h1><h1 id="print-type-num1-num1-type-num2-num2"><a href="#print-type-num1-num1-type-num2-num2" class="headerlink" title="print(type(num1),num1,type(num2),num2)"></a>print(type(num1),num1,type(num2),num2)</h1>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2023/06/28/hello-world/"/>
       <url>/2023/06/28/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to RongHuaSiXue.com!<br>欢迎来到我的个人博客——茸华似雪的茸华坊</p><h2 id="Why-print-Hello-World"><a href="#Why-print-Hello-World" class="headerlink" title="Why print Hello World"></a>Why print Hello World</h2><p>“Hello, world”程序是指在计算机屏幕上输出“Hello world”这行字符串的计算机程序，“Hello World”的中文意思是“你好，世界。”。这个例程在 Brian Kernighan 和 Dennis M. Ritchie合著的The C Programme Language使用而广泛流行。因为它的简洁，实用，并包含了一个该版本的C程序首次在1974年 Brian Kernighan 所撰写的 Programming in C: A Tutorial 出现。</p><h3 id="When-printf-“hello-world-n”"><a href="#When-printf-“hello-world-n”" class="headerlink" title="When printf(“hello, world\n”)"></a>When printf(“hello, world\n”)</h3><p>实际上将“Hello”和“World”一起使用的程序最早出现于1972年，在贝尔实验室成员Brian Kernighan撰写的内部技术文件《Introduction to the Language B》之中。最初的”hello, world”打印内容有个标准，即全小写，有逗号，逗号后空一格，且无感叹号。不过，完全遵循传统标准形式的反而很少出现。</p>]]></content>
       
       
       
