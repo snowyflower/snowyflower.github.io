@@ -334,7 +334,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-10-22 23:42:34" itemprop="dateModified" datetime="2023-10-22T23:42:34+08:00">2023-10-22</time>
+                <time title="修改时间：2023-11-13 23:09:02" itemprop="dateModified" datetime="2023-11-13T23:09:02+08:00">2023-11-13</time>
               </span>
 
           
@@ -385,6 +385,11 @@
 
 <h1 id="字符串无法通过加法和数字拼接"><a href="#字符串无法通过加法和数字拼接" class="headerlink" title="字符串无法通过加法和数字拼接"></a>字符串无法通过加法和数字拼接</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">错误的示例 tel = <span class="number">666</span> </span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;茸华似雪的电话是:&quot;</span>+ tel)</span><br></pre></td></tr></table></figure>
 
+<h1 id="字符串格式化一——通过占位的形式完成拼接"><a href="#字符串格式化一——通过占位的形式完成拼接" class="headerlink" title="字符串格式化一——通过占位的形式完成拼接"></a>字符串格式化一——通过占位的形式完成拼接</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">&quot;茸华似雪&quot;</span></span><br><span class="line">message = <span class="string">&quot;我的名字是:%s&quot;</span> % (name)</span><br><span class="line"><span class="built_in">print</span>(message)</span><br></pre></td></tr></table></figure>
+
+<h1 id="字符串格式二——通过占位的形式完成数字和字符串的拼接"><a href="#字符串格式二——通过占位的形式完成数字和字符串的拼接" class="headerlink" title="字符串格式二——通过占位的形式完成数字和字符串的拼接"></a>字符串格式二——通过占位的形式完成数字和字符串的拼接</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">class_num = <span class="number">5</span></span><br><span class="line">avg_salary = <span class="number">3500</span></span><br><span class="line">message = <span class="string">&quot;四川外国语大学,金融学%s班,毕业平均工资:%s&quot;</span> %(class_num,avg_salary)</span><br><span class="line"><span class="built_in">print</span>(message)</span><br></pre></td></tr></table></figure>
+
+<h1 id="格式符号-s-d-f的转化"><a href="#格式符号-s-d-f的转化" class="headerlink" title="格式符号$s $d $f的转化"></a>格式符号$s $d $f的转化</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## $s 将内容转换成字符串并且放入占位位置</span></span><br><span class="line"><span class="comment">## $d 将内容转换成整数并且放入占位位置</span></span><br><span class="line"><span class="comment">## $f 将内容转换成浮点型并且放入占位位置</span></span><br><span class="line">name = <span class="string">&quot;茸华似雪&quot;</span></span><br><span class="line">set_up_year = <span class="number">2018</span></span><br><span class="line">love_year = <span class="number">5.2</span></span><br><span class="line">message = <span class="string">&quot;我是:%s,我诞生于:%d年,我今天喜欢茸华已经:%f年了!&quot;</span> % (name,set_up_year,love_year)</span><br><span class="line"><span class="built_in">print</span>(message)</span><br></pre></td></tr></table></figure>
       
     </div>
 
