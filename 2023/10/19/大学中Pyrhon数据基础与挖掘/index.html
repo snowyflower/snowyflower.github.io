@@ -1,29 +1,25 @@
+
+
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
 <head>
-  <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 6.3.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/css/main.css">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  
 
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.1/jquery.fancybox.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"ronghuasixue.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
-  </script>
-
-  <meta name="description" content="这段代码为大一上半学期选修课程Python数据基础与挖掘如何使用 if 和 else 命令123456Name &#x3D; input(&quot;请输入用户名&quot;)Password &#x3D; input(&quot;请输入密码&quot;)if Name &#x3D;&#x3D; (&amp;#x27;admin&amp;#x27;) and Password &#x3D;&#x3D; (&amp;#x27;123&amp;#x27;):    print(&quot;登">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="茸华似雪">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="这段代码为大一上半学期选修课程Python数据基础与挖掘如何使用 if 和 else 命令123456Name &#x3D; input(&quot;请输入用户名&quot;)Password &#x3D; input(&quot;请输入密码&quot;)if Name &#x3D;&#x3D; (&amp;#x27;admin&amp;#x27;) and Password &#x3D;&#x3D; (&amp;#x27;123&amp;#x27;):    print(&quot;登">
 <meta property="og:type" content="article">
 <meta property="og:title" content="大学中Pyrhon数据基础与挖掘">
 <meta property="og:url" content="http://ronghuasixue.com/2023/10/19/%E5%A4%A7%E5%AD%A6%E4%B8%ADPyrhon%E6%95%B0%E6%8D%AE%E5%9F%BA%E7%A1%80%E4%B8%8E%E6%8C%96%E6%8E%98/index.html">
@@ -34,320 +30,342 @@
 <meta property="article:modified_time" content="2024-01-02T06:24:01.879Z">
 <meta property="article:author" content="茸华似雪">
 <meta property="article:tag" content="Python">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>大学中Pyrhon数据基础与挖掘 - 茸华坊</title>
 
-<link rel="canonical" href="http://ronghuasixue.com/2023/10/19/%E5%A4%A7%E5%AD%A6%E4%B8%ADPyrhon%E6%95%B0%E6%8D%AE%E5%9F%BA%E7%A1%80%E4%B8%8E%E6%8C%96%E6%8E%98/">
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : false,
-    isPost : true,
-    lang   : 'zh-CN'
-  };
-</script>
 
-  <title>大学中Pyrhon数据基础与挖掘 | 茸华坊</title>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
   
 
 
 
 
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"ronghuasixue.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
 
 
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
 
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
 
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
+<body>
+  
 
-</head>
+  <header>
+    
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
-
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切换导航栏">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
-
-  <div class="site-meta">
-
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">茸华坊</h1>
-      <span class="logo-line-after"><i></i></span>
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
     </a>
-  </div>
 
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-        <i class="fa fa-search fa-fw fa-lg"></i>
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
     </div>
   </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>温馨的小家✿</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>相关介绍</a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>魔法词条۞</a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>数据分析处</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>档案归处✍</a>
-
-  </li>
-        <li class="menu-item menu-item-schedule">
-
-    <a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>工作清单</a>
-
-  </li>
-        <li class="menu-item menu-item-sitemap">
-
-    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>我是地图</a>
-
-  </li>
-      <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>哪里不懂点哪里✌
-        </a>
-      </li>
-  </ul>
 </nav>
 
-
-
-  <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-  <span class="search-icon">
-    <i class="fa fa-search"></i>
-  </span>
-  <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
-           placeholder="搜索..." spellcheck="false"
-           type="search" class="search-input">
-  </div>
-  <span class="popup-btn-close">
-    <i class="fa fa-times-circle"></i>
-  </span>
-</div>
-<div id="search-result">
-  <div id="no-result">
-    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
-  </div>
-</div>
-
-    </div>
-  </div>
-
-</div>
-    </header>
-
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content post posts-expand">
-            
-
-    
   
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://ronghuasixue.com/2023/10/19/%E5%A4%A7%E5%AD%A6%E4%B8%ADPyrhon%E6%95%B0%E6%8D%AE%E5%9F%BA%E7%A1%80%E4%B8%8E%E6%8C%96%E6%8E%98/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="茸华似雪">
-      <meta itemprop="description" content="山有木兮木有枝，心悦君兮君不知">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="茸华坊">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          大学中Pyrhon数据基础与挖掘
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2023-10-19 23:29:21" itemprop="dateCreated datePublished" datetime="2023-10-19T23:29:21+08:00">2023-10-19</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2024-01-02 14:24:01" itemprop="dateModified" datetime="2024-01-02T14:24:01+08:00">2024-01-02</time>
-              </span>
-
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
           
-            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
-              <span class="post-meta-item-icon">
-                <i class="eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span id="busuanzi_value_page_pv"></span>
-            </span>
-
+            <span id="subtitle" data-typed-text="大学中Pyrhon数据基础与挖掘"></span>
+          
         </div>
-      </header>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-10-19 23:29" pubdate>
+          2023年10月19日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          2.8k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          24 分钟
+        
+      </span>
+    
 
     
     
-    
-    <div class="post-body" itemprop="articleBody">
+  </div>
+
+
+        
+      </div>
 
       
-        <h1 id="这段代码为大一上半学期选修课程Python数据基础与挖掘"><a href="#这段代码为大一上半学期选修课程Python数据基础与挖掘" class="headerlink" title="这段代码为大一上半学期选修课程Python数据基础与挖掘"></a>这段代码为大一上半学期选修课程Python数据基础与挖掘</h1><h1 id="如何使用-if-和-else-命令"><a href="#如何使用-if-和-else-命令" class="headerlink" title="如何使用 if 和 else 命令"></a>如何使用 if 和 else 命令</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Name = <span class="built_in">input</span>(<span class="string">&quot;请输入用户名&quot;</span>)</span><br><span class="line">Password = <span class="built_in">input</span>(<span class="string">&quot;请输入密码&quot;</span>)</span><br><span class="line"><span class="keyword">if</span> Name == (<span class="string">&#x27;admin&#x27;</span>) <span class="keyword">and</span> Password == (<span class="string">&#x27;123&#x27;</span>):</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;登陆成功&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;登陆失败,账户or密码错误&quot;</span>)</span><br></pre></td></tr></table></figure>
+    </div>
+  </div>
+</div>
 
-<h1 id="使用-for-sth-in-range-进行循环命令后-使用-break-停止命令"><a href="#使用-for-sth-in-range-进行循环命令后-使用-break-停止命令" class="headerlink" title="使用 for (sth) in range 进行循环命令后 使用 break 停止命令"></a>使用 for (sth) in range 进行循环命令后 使用 break 停止命令</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">    Name = <span class="built_in">input</span>(<span class="string">&quot;请输入用户名&quot;</span>)</span><br><span class="line">    Password = <span class="built_in">input</span>(<span class="string">&quot;请输入密码&quot;</span>)</span><br><span class="line">    YanZheng = <span class="built_in">input</span>(<span class="string">&quot;请输入验证码&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> Name == (<span class="string">&#x27;admin&#x27;</span>) <span class="keyword">and</span> Password == (<span class="string">&#x27;123&#x27;</span>) <span class="keyword">and</span> YanZheng == (<span class="string">&quot;321&quot;</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;登陆成功&quot;</span>)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;您的余额剩余100万元&quot;</span>)</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;登陆失败,账户or密码错误&quot;</span>)</span><br></pre></td></tr></table></figure>
+</div>
 
-<h1 id="字符串中的储存方式-——-下标编号"><a href="#字符串中的储存方式-——-下标编号" class="headerlink" title="字符串中的储存方式 —— 下标编号"></a>字符串中的储存方式 —— 下标编号</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">&quot;abcdef&quot;</span></span><br><span class="line"><span class="built_in">print</span>(name[<span class="number">0</span>],name[<span class="number">1</span>])</span><br></pre></td></tr></table></figure>
+  </header>
 
-<h1 id="什么叫切片"><a href="#什么叫切片" class="headerlink" title="什么叫切片"></a>什么叫切片</h1> <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">range</span>[起始:结束:步长]</span><br></pre></td></tr></table></figure>
+  <main>
+    
+      
 
-<h1 id="使用切片加下标编号"><a href="#使用切片加下标编号" class="headerlink" title="使用切片加下标编号"></a>使用切片加下标编号</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">&quot;abcdef&quot;</span></span><br><span class="line"><span class="built_in">print</span>(name[:<span class="number">1</span>:<span class="number">2</span>],name[::-<span class="number">2</span>])</span><br><span class="line"></span><br><span class="line">string =<span class="string">&quot;Life is short,we need python!&quot;</span></span><br><span class="line"><span class="built_in">print</span>(string[<span class="number">8</span>:<span class="number">13</span>:<span class="number">1</span>])</span><br></pre></td></tr></table></figure>
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
 
-<h1 id="字符串内建函数-——-index函数-检测字符串是否包括子字符串"><a href="#字符串内建函数-——-index函数-检测字符串是否包括子字符串" class="headerlink" title="字符串内建函数 —— index函数:检测字符串是否包括子字符串"></a>字符串内建函数 —— index函数:检测字符串是否包括子字符串</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 具体参数如下:str —— 指定检索字符串、beg —— 开始检索而且默认为零、结束引索而且默认为字符串的长度</span></span><br><span class="line"><span class="comment"># 使用方法跟 find() 一样但是如果str不在string中会出现异常</span></span><br><span class="line"><span class="built_in">str</span>.index(<span class="built_in">str</span>,start = <span class="number">0</span>,end = <span class="built_in">len</span>(string))</span><br></pre></td></tr></table></figure>
+    </div>
 
-<h1 id="字符串内建函数-——-replace函数-将旧字符串替换为新字符串"><a href="#字符串内建函数-——-replace函数-将旧字符串替换为新字符串" class="headerlink" title="字符串内建函数 —— replace函数:将旧字符串替换为新字符串"></a>字符串内建函数 —— replace函数:将旧字符串替换为新字符串</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 具体参数如下:old —— 将被替换的字符串、new —— 新字符串且用于替换old字符串、max —— 可选字符串且替换不超过max次</span></span><br><span class="line"><span class="built_in">str</span>.replace(old,new[,<span class="built_in">max</span>])</span><br><span class="line">web = <span class="string">&quot;https://yyxy.sisu.edu.cn/&quot;</span></span><br><span class="line">dep = [<span class="string">&quot;be&quot;</span>,<span class="string">&quot;dyx&quot;</span>,<span class="string">&quot;zwx&quot;</span>,<span class="string">&quot;media&quot;</span>,<span class="string">&quot;sibm&quot;</span>,<span class="string">&quot;sis&quot;</span>]</span><br><span class="line"><span class="keyword">for</span> a <span class="keyword">in</span> dep:</span><br><span class="line">    url = web.replace(<span class="string">&quot;yyxy&quot;</span>,a)</span><br><span class="line">    <span class="built_in">print</span>(url)</span><br></pre></td></tr></table></figure>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">大学中Pyrhon数据基础与挖掘</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h1 id="这段代码为大一上半学期选修课程Python数据基础与挖掘"><a href="#这段代码为大一上半学期选修课程Python数据基础与挖掘" class="headerlink" title="这段代码为大一上半学期选修课程Python数据基础与挖掘"></a>这段代码为大一上半学期选修课程Python数据基础与挖掘</h1><h1 id="如何使用-if-和-else-命令"><a href="#如何使用-if-和-else-命令" class="headerlink" title="如何使用 if 和 else 命令"></a>如何使用 if 和 else 命令</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs python">Name = <span class="hljs-built_in">input</span>(<span class="hljs-string">&quot;请输入用户名&quot;</span>)<br>Password = <span class="hljs-built_in">input</span>(<span class="hljs-string">&quot;请输入密码&quot;</span>)<br><span class="hljs-keyword">if</span> Name == (<span class="hljs-string">&#x27;admin&#x27;</span>) <span class="hljs-keyword">and</span> Password == (<span class="hljs-string">&#x27;123&#x27;</span>):<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;登陆成功&quot;</span>)<br><span class="hljs-keyword">else</span>:<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;登陆失败,账户or密码错误&quot;</span>)<br></code></pre></td></tr></table></figure>
 
-<h1 id="字符串内建函数-——-split函数-通过指定分隔符对字符串进行切片"><a href="#字符串内建函数-——-split函数-通过指定分隔符对字符串进行切片" class="headerlink" title="字符串内建函数 —— split函数:通过指定分隔符对字符串进行切片"></a>字符串内建函数 —— split函数:通过指定分隔符对字符串进行切片</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 具体参数如下:str —— 分隔符而且默认为所有空字符、num —— 分割次</span></span><br><span class="line"><span class="built_in">str</span>.split(<span class="built_in">str</span> = <span class="string">&quot;&quot;</span>,num = string.count(<span class="built_in">str</span>))</span><br><span class="line"></span><br><span class="line">string =<span class="string">&quot;Life is short,we need python&quot;</span></span><br><span class="line"><span class="built_in">print</span>(string.split(<span class="string">&quot;s&quot;</span>)[-<span class="number">1</span>])</span><br><span class="line"></span><br><span class="line">string =<span class="string">&quot;Life is short,we need python&quot;</span></span><br><span class="line"><span class="built_in">print</span>(string.split(<span class="string">&quot;h&quot;</span>)[<span class="number">1</span>].split(<span class="string">&quot;w&quot;</span>)[<span class="number">0</span>])</span><br></pre></td></tr></table></figure>
+<h1 id="使用-for-sth-in-range-进行循环命令后-使用-break-停止命令"><a href="#使用-for-sth-in-range-进行循环命令后-使用-break-停止命令" class="headerlink" title="使用 for (sth) in range 进行循环命令后 使用 break 停止命令"></a>使用 for (sth) in range 进行循环命令后 使用 break 停止命令</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">3</span>):<br>    Name = <span class="hljs-built_in">input</span>(<span class="hljs-string">&quot;请输入用户名&quot;</span>)<br>    Password = <span class="hljs-built_in">input</span>(<span class="hljs-string">&quot;请输入密码&quot;</span>)<br>    YanZheng = <span class="hljs-built_in">input</span>(<span class="hljs-string">&quot;请输入验证码&quot;</span>)<br>    <span class="hljs-keyword">if</span> Name == (<span class="hljs-string">&#x27;admin&#x27;</span>) <span class="hljs-keyword">and</span> Password == (<span class="hljs-string">&#x27;123&#x27;</span>) <span class="hljs-keyword">and</span> YanZheng == (<span class="hljs-string">&quot;321&quot;</span>):<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;登陆成功&quot;</span>)<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;您的余额剩余100万元&quot;</span>)<br>        <span class="hljs-keyword">break</span><br>    <span class="hljs-keyword">else</span>:<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;登陆失败,账户or密码错误&quot;</span>)<br></code></pre></td></tr></table></figure>
 
-<h1 id="字符串内建函数-——-capitalize与title函数"><a href="#字符串内建函数-——-capitalize与title函数" class="headerlink" title="字符串内建函数 —— capitalize与title函数"></a>字符串内建函数 —— capitalize与title函数</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># capitalize:第一个字符大写而且其他字符小写</span></span><br><span class="line"><span class="built_in">str</span>.capitalize()</span><br><span class="line"><span class="comment"># title:所有单词首字母大写而且其余字母小写</span></span><br><span class="line"><span class="built_in">str</span>.title()</span><br></pre></td></tr></table></figure>
+<h1 id="字符串中的储存方式-——-下标编号"><a href="#字符串中的储存方式-——-下标编号" class="headerlink" title="字符串中的储存方式 —— 下标编号"></a>字符串中的储存方式 —— 下标编号</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python">name = <span class="hljs-string">&quot;abcdef&quot;</span><br><span class="hljs-built_in">print</span>(name[<span class="hljs-number">0</span>],name[<span class="hljs-number">1</span>])<br></code></pre></td></tr></table></figure>
 
-<h1 id="字符串内建函数-——-startswith函数-检查字符串是否以制定子串开头"><a href="#字符串内建函数-——-startswith函数-检查字符串是否以制定子串开头" class="headerlink" title="字符串内建函数 —— startswith函数:检查字符串是否以制定子串开头"></a>字符串内建函数 —— startswith函数:检查字符串是否以制定子串开头</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#  具体参数如下:strbeg —— 可选参数用于设置字符串检查的起始值、strend —— 可选参数用于设置字符串检查的结束位置</span></span><br><span class="line"><span class="built_in">str</span>.startswith(<span class="built_in">str</span>,beg = <span class="number">0</span>,end = <span class="built_in">len</span>(string))</span><br></pre></td></tr></table></figure>
+<h1 id="什么叫切片"><a href="#什么叫切片" class="headerlink" title="什么叫切片"></a>什么叫切片</h1> <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-built_in">range</span>[起始:结束:步长]<br></code></pre></td></tr></table></figure>
 
-<h1 id="字符串内建函数-——-endswith函数-检查字符串是否以制定子串结尾"><a href="#字符串内建函数-——-endswith函数-检查字符串是否以制定子串结尾" class="headerlink" title="字符串内建函数 —— endswith函数:检查字符串是否以制定子串结尾"></a>字符串内建函数 —— endswith函数:检查字符串是否以制定子串结尾</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 具体参数如下:suffix —— 该参数可以是一个字符串或者是一个元素、start —— 字符串中的开始位置、end —— 字符串中的结束位置</span></span><br><span class="line"><span class="built_in">str</span>.endswith(suffix[,start[,end]])</span><br></pre></td></tr></table></figure>
+<h1 id="使用切片加下标编号"><a href="#使用切片加下标编号" class="headerlink" title="使用切片加下标编号"></a>使用切片加下标编号</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs python">name = <span class="hljs-string">&quot;abcdef&quot;</span><br><span class="hljs-built_in">print</span>(name[:<span class="hljs-number">1</span>:<span class="hljs-number">2</span>],name[::-<span class="hljs-number">2</span>])<br><br>string =<span class="hljs-string">&quot;Life is short,we need python!&quot;</span><br><span class="hljs-built_in">print</span>(string[<span class="hljs-number">8</span>:<span class="hljs-number">13</span>:<span class="hljs-number">1</span>])<br></code></pre></td></tr></table></figure>
 
-<h1 id="字符串内建函数-——-upper函数-将小写字母转为大写字母"><a href="#字符串内建函数-——-upper函数-将小写字母转为大写字母" class="headerlink" title="字符串内建函数 —— upper函数:将小写字母转为大写字母"></a>字符串内建函数 —— upper函数:将小写字母转为大写字母</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">str</span>.upper()</span><br><span class="line">mystr = <span class="string">&quot;I love my lover RongHua&quot;</span></span><br><span class="line">NewMystr = mystr.upper</span><br><span class="line"><span class="built_in">print</span>(NewMystr)</span><br></pre></td></tr></table></figure>
+<h1 id="字符串内建函数-——-index函数-检测字符串是否包括子字符串"><a href="#字符串内建函数-——-index函数-检测字符串是否包括子字符串" class="headerlink" title="字符串内建函数 —— index函数:检测字符串是否包括子字符串"></a>字符串内建函数 —— index函数:检测字符串是否包括子字符串</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 具体参数如下:str —— 指定检索字符串、beg —— 开始检索而且默认为零、结束引索而且默认为字符串的长度</span><br><span class="hljs-comment"># 使用方法跟 find() 一样但是如果str不在string中会出现异常</span><br><span class="hljs-built_in">str</span>.index(<span class="hljs-built_in">str</span>,start = <span class="hljs-number">0</span>,end = <span class="hljs-built_in">len</span>(string))<br></code></pre></td></tr></table></figure>
 
-<h1 id="字符串内建函数-——-ljust函数-左对齐而且使用空格填充至指定长度的新字符串"><a href="#字符串内建函数-——-ljust函数-左对齐而且使用空格填充至指定长度的新字符串" class="headerlink" title="字符串内建函数 —— ljust函数:左对齐而且使用空格填充至指定长度的新字符串"></a>字符串内建函数 —— ljust函数:左对齐而且使用空格填充至指定长度的新字符串</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 具体参数如下:width —— 指定字符串长度、fillchar —— 填充字符而且默认为空格</span></span><br><span class="line"><span class="built_in">str</span>.ljust(width[,fillchar])</span><br></pre></td></tr></table></figure>
+<h1 id="字符串内建函数-——-replace函数-将旧字符串替换为新字符串"><a href="#字符串内建函数-——-replace函数-将旧字符串替换为新字符串" class="headerlink" title="字符串内建函数 —— replace函数:将旧字符串替换为新字符串"></a>字符串内建函数 —— replace函数:将旧字符串替换为新字符串</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 具体参数如下:old —— 将被替换的字符串、new —— 新字符串且用于替换old字符串、max —— 可选字符串且替换不超过max次</span><br><span class="hljs-built_in">str</span>.replace(old,new[,<span class="hljs-built_in">max</span>])<br>web = <span class="hljs-string">&quot;https://yyxy.sisu.edu.cn/&quot;</span><br>dep = [<span class="hljs-string">&quot;be&quot;</span>,<span class="hljs-string">&quot;dyx&quot;</span>,<span class="hljs-string">&quot;zwx&quot;</span>,<span class="hljs-string">&quot;media&quot;</span>,<span class="hljs-string">&quot;sibm&quot;</span>,<span class="hljs-string">&quot;sis&quot;</span>]<br><span class="hljs-keyword">for</span> a <span class="hljs-keyword">in</span> dep:<br>    url = web.replace(<span class="hljs-string">&quot;yyxy&quot;</span>,a)<br>    <span class="hljs-built_in">print</span>(url)<br></code></pre></td></tr></table></figure>
 
-<h1 id="字符串内建函数-——-strip函数-截掉字符串左右边的空格或指定字符"><a href="#字符串内建函数-——-strip函数-截掉字符串左右边的空格或指定字符" class="headerlink" title="字符串内建函数 —— strip函数:截掉字符串左右边的空格或指定字符"></a>字符串内建函数 —— strip函数:截掉字符串左右边的空格或指定字符</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 具体参数如下:chars —— 移除字符串头尾指定的字符</span></span><br><span class="line"><span class="built_in">str</span>.strip([chars])</span><br><span class="line"></span><br><span class="line">string =<span class="string">&quot;Life is short,we need python!&quot;</span></span><br><span class="line"><span class="built_in">print</span>(string.strip(<span class="string">&quot;Life i&quot;</span>))</span><br></pre></td></tr></table></figure>
+<h1 id="字符串内建函数-——-split函数-通过指定分隔符对字符串进行切片"><a href="#字符串内建函数-——-split函数-通过指定分隔符对字符串进行切片" class="headerlink" title="字符串内建函数 —— split函数:通过指定分隔符对字符串进行切片"></a>字符串内建函数 —— split函数:通过指定分隔符对字符串进行切片</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 具体参数如下:str —— 分隔符而且默认为所有空字符、num —— 分割次</span><br><span class="hljs-built_in">str</span>.split(<span class="hljs-built_in">str</span> = <span class="hljs-string">&quot;&quot;</span>,num = string.count(<span class="hljs-built_in">str</span>))<br><br>string =<span class="hljs-string">&quot;Life is short,we need python&quot;</span><br><span class="hljs-built_in">print</span>(string.split(<span class="hljs-string">&quot;s&quot;</span>)[-<span class="hljs-number">1</span>])<br><br>string =<span class="hljs-string">&quot;Life is short,we need python&quot;</span><br><span class="hljs-built_in">print</span>(string.split(<span class="hljs-string">&quot;h&quot;</span>)[<span class="hljs-number">1</span>].split(<span class="hljs-string">&quot;w&quot;</span>)[<span class="hljs-number">0</span>])<br></code></pre></td></tr></table></figure>
 
-<h1 id="条件语句if-elif-else的使用"><a href="#条件语句if-elif-else的使用" class="headerlink" title="条件语句if-elif-else的使用:"></a>条件语句if-elif-else的使用:</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> condition1:</span><br><span class="line">    <span class="comment"># 如果条件 1 成立，则执行此处的代码块</span></span><br><span class="line"><span class="keyword">elif</span> condition2:</span><br><span class="line">    <span class="comment"># 如果条件 2 成立，则执行此处的代码块</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="comment"># 如果所有条件都不成立，则执行此处的代码块</span></span><br><span class="line"></span><br><span class="line">mouth = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入你的出生月份: &quot;</span>))</span><br><span class="line">day = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入你的出生日期: &quot;</span>))</span><br><span class="line"><span class="keyword">if</span> mouth == <span class="number">3</span> <span class="keyword">and</span> <span class="number">21</span> &lt;= day &lt;= <span class="number">31</span> <span class="keyword">or</span> mouth == <span class="number">4</span> <span class="keyword">and</span> <span class="number">1</span>&lt;= day &lt;=<span class="number">19</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;你的星座是白羊座&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> mouth == <span class="number">4</span> <span class="keyword">and</span> <span class="number">20</span> &lt;= day &lt;= <span class="number">30</span> <span class="keyword">or</span> mouth == <span class="number">5</span> <span class="keyword">and</span> <span class="number">1</span>&lt;= day &lt;=<span class="number">20</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;你的星座是金牛座&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;你是其他星座&quot;</span>)</span><br></pre></td></tr></table></figure>
+<h1 id="字符串内建函数-——-capitalize与title函数"><a href="#字符串内建函数-——-capitalize与title函数" class="headerlink" title="字符串内建函数 —— capitalize与title函数"></a>字符串内建函数 —— capitalize与title函数</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># capitalize:第一个字符大写而且其他字符小写</span><br><span class="hljs-built_in">str</span>.capitalize()<br><span class="hljs-comment"># title:所有单词首字母大写而且其余字母小写</span><br><span class="hljs-built_in">str</span>.title()<br></code></pre></td></tr></table></figure>
 
-<h1 id="字符串中使用“-”或-t转义字符-空一格"><a href="#字符串中使用“-”或-t转义字符-空一格" class="headerlink" title="字符串中使用“ ”或\t转义字符 空一格"></a>字符串中使用“ ”或\t转义字符 空一格</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">string1 = <span class="string">&quot;Hello&quot;</span></span><br><span class="line">string2 = <span class="string">&quot;World&quot;</span></span><br><span class="line"><span class="built_in">print</span>( string1,<span class="string">&quot; &quot;</span>,string2 )</span><br><span class="line"><span class="built_in">print</span>(string1,<span class="string">&quot;\t&quot;</span>,string2)</span><br></pre></td></tr></table></figure>
+<h1 id="字符串内建函数-——-startswith函数-检查字符串是否以制定子串开头"><a href="#字符串内建函数-——-startswith函数-检查字符串是否以制定子串开头" class="headerlink" title="字符串内建函数 —— startswith函数:检查字符串是否以制定子串开头"></a>字符串内建函数 —— startswith函数:检查字符串是否以制定子串开头</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment">#  具体参数如下:strbeg —— 可选参数用于设置字符串检查的起始值、strend —— 可选参数用于设置字符串检查的结束位置</span><br><span class="hljs-built_in">str</span>.startswith(<span class="hljs-built_in">str</span>,beg = <span class="hljs-number">0</span>,end = <span class="hljs-built_in">len</span>(string))<br></code></pre></td></tr></table></figure>
 
-<h1 id="列表aList元素访问与计数"><a href="#列表aList元素访问与计数" class="headerlink" title="列表aList元素访问与计数"></a>列表aList元素访问与计数</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">score = [<span class="number">99</span>,<span class="number">88</span>,<span class="number">92</span>,<span class="number">100</span>,<span class="number">66</span>,<span class="number">85</span>,<span class="number">57</span>,<span class="number">79</span>,<span class="number">90</span>,<span class="number">61</span>]</span><br><span class="line">score[<span class="number">0</span>:<span class="number">5</span>:]</span><br><span class="line"></span><br><span class="line">score = [<span class="number">99</span>,<span class="number">88</span>,<span class="number">92</span>,<span class="number">100</span>,<span class="number">66</span>,<span class="number">85</span>,<span class="number">57</span>,<span class="number">79</span>,<span class="number">90</span>,<span class="number">61</span>]</span><br><span class="line">score[<span class="number">2</span>]</span><br></pre></td></tr></table></figure>
+<h1 id="字符串内建函数-——-endswith函数-检查字符串是否以制定子串结尾"><a href="#字符串内建函数-——-endswith函数-检查字符串是否以制定子串结尾" class="headerlink" title="字符串内建函数 —— endswith函数:检查字符串是否以制定子串结尾"></a>字符串内建函数 —— endswith函数:检查字符串是否以制定子串结尾</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 具体参数如下:suffix —— 该参数可以是一个字符串或者是一个元素、start —— 字符串中的开始位置、end —— 字符串中的结束位置</span><br><span class="hljs-built_in">str</span>.endswith(suffix[,start[,end]])<br></code></pre></td></tr></table></figure>
 
-<h1 id="列表aList元素的增加指令—append、extend、insert、"><a href="#列表aList元素的增加指令—append、extend、insert、" class="headerlink" title="列表aList元素的增加指令—append、extend、insert、*"></a>列表aList元素的增加指令—append、extend、insert、*</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">score = [<span class="number">99</span>,<span class="number">88</span>,<span class="number">92</span>,<span class="number">100</span>,<span class="number">66</span>,<span class="number">85</span>,<span class="number">57</span>,<span class="number">79</span>,<span class="number">90</span>,<span class="number">61</span>]</span><br><span class="line">score.insert(<span class="number">2</span>,<span class="number">6</span>)</span><br><span class="line">score[::<span class="number">1</span>]</span><br></pre></td></tr></table></figure>
+<h1 id="字符串内建函数-——-upper函数-将小写字母转为大写字母"><a href="#字符串内建函数-——-upper函数-将小写字母转为大写字母" class="headerlink" title="字符串内建函数 —— upper函数:将小写字母转为大写字母"></a>字符串内建函数 —— upper函数:将小写字母转为大写字母</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-built_in">str</span>.upper()<br>mystr = <span class="hljs-string">&quot;I love my lover RongHua&quot;</span><br>NewMystr = mystr.upper<br><span class="hljs-built_in">print</span>(NewMystr)<br></code></pre></td></tr></table></figure>
 
-<h1 id="列表aList元素的删减指令—pop-、remove"><a href="#列表aList元素的删减指令—pop-、remove" class="headerlink" title="列表aList元素的删减指令—pop()、remove()"></a>列表aList元素的删减指令—pop()、remove()</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">score = [<span class="number">99</span>,<span class="number">88</span>,<span class="number">92</span>,<span class="number">100</span>,<span class="number">66</span>,<span class="number">85</span>,<span class="number">57</span>,<span class="number">79</span>,<span class="number">90</span>,<span class="number">61</span>]</span><br><span class="line">score.pop(<span class="number">1</span>)</span><br><span class="line">score</span><br></pre></td></tr></table></figure>
+<h1 id="字符串内建函数-——-ljust函数-左对齐而且使用空格填充至指定长度的新字符串"><a href="#字符串内建函数-——-ljust函数-左对齐而且使用空格填充至指定长度的新字符串" class="headerlink" title="字符串内建函数 —— ljust函数:左对齐而且使用空格填充至指定长度的新字符串"></a>字符串内建函数 —— ljust函数:左对齐而且使用空格填充至指定长度的新字符串</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 具体参数如下:width —— 指定字符串长度、fillchar —— 填充字符而且默认为空格</span><br><span class="hljs-built_in">str</span>.ljust(width[,fillchar])<br></code></pre></td></tr></table></figure>
 
-<h1 id="在列表外-x2F-中去使用循环语句去除指定元素"><a href="#在列表外-x2F-中去使用循环语句去除指定元素" class="headerlink" title="在列表外&#x2F;中去使用循环语句去除指定元素"></a>在列表外&#x2F;中去使用循环语句去除指定元素</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">2</span>]</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> a:</span><br><span class="line">    <span class="keyword">if</span> i = <span class="number">1</span>:</span><br><span class="line">        a.remove()</span><br><span class="line"><span class="built_in">print</span>(a)</span><br><span class="line"></span><br><span class="line">a = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">1</span>,<span class="number">2</span>]</span><br><span class="line">a = [i <span class="keyword">for</span> i <span class="keyword">in</span> a <span class="keyword">if</span> i !=<span class="number">1</span>]</span><br><span class="line"><span class="built_in">print</span>(a)</span><br></pre></td></tr></table></figure>
+<h1 id="字符串内建函数-——-strip函数-截掉字符串左右边的空格或指定字符"><a href="#字符串内建函数-——-strip函数-截掉字符串左右边的空格或指定字符" class="headerlink" title="字符串内建函数 —— strip函数:截掉字符串左右边的空格或指定字符"></a>字符串内建函数 —— strip函数:截掉字符串左右边的空格或指定字符</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 具体参数如下:chars —— 移除字符串头尾指定的字符</span><br><span class="hljs-built_in">str</span>.strip([chars])<br><br>string =<span class="hljs-string">&quot;Life is short,we need python!&quot;</span><br><span class="hljs-built_in">print</span>(string.strip(<span class="hljs-string">&quot;Life i&quot;</span>))<br></code></pre></td></tr></table></figure>
 
-<h1 id="在列表中使用count-指令查询指定元素次数"><a href="#在列表中使用count-指令查询指定元素次数" class="headerlink" title="在列表中使用count()指令查询指定元素次数"></a>在列表中使用count()指令查询指定元素次数</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">score = [<span class="number">99</span>,<span class="number">88</span>,<span class="number">92</span>,<span class="number">100</span>,<span class="number">66</span>,<span class="number">85</span>,<span class="number">57</span>,<span class="number">79</span>,<span class="number">90</span>,<span class="number">61</span>]</span><br><span class="line">num = score</span><br><span class="line">count = num.count(<span class="number">90</span>)</span><br><span class="line"><span class="built_in">print</span>(count)</span><br></pre></td></tr></table></figure>
+<h1 id="条件语句if-elif-else的使用"><a href="#条件语句if-elif-else的使用" class="headerlink" title="条件语句if-elif-else的使用:"></a>条件语句if-elif-else的使用:</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">if</span> condition1:<br>    <span class="hljs-comment"># 如果条件 1 成立，则执行此处的代码块</span><br><span class="hljs-keyword">elif</span> condition2:<br>    <span class="hljs-comment"># 如果条件 2 成立，则执行此处的代码块</span><br><span class="hljs-keyword">else</span>:<br>    <span class="hljs-comment"># 如果所有条件都不成立，则执行此处的代码块</span><br><br>mouth = <span class="hljs-built_in">int</span>(<span class="hljs-built_in">input</span>(<span class="hljs-string">&quot;请输入你的出生月份: &quot;</span>))<br>day = <span class="hljs-built_in">int</span>(<span class="hljs-built_in">input</span>(<span class="hljs-string">&quot;请输入你的出生日期: &quot;</span>))<br><span class="hljs-keyword">if</span> mouth == <span class="hljs-number">3</span> <span class="hljs-keyword">and</span> <span class="hljs-number">21</span> &lt;= day &lt;= <span class="hljs-number">31</span> <span class="hljs-keyword">or</span> mouth == <span class="hljs-number">4</span> <span class="hljs-keyword">and</span> <span class="hljs-number">1</span>&lt;= day &lt;=<span class="hljs-number">19</span>:<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;你的星座是白羊座&quot;</span>)<br><span class="hljs-keyword">elif</span> mouth == <span class="hljs-number">4</span> <span class="hljs-keyword">and</span> <span class="hljs-number">20</span> &lt;= day &lt;= <span class="hljs-number">30</span> <span class="hljs-keyword">or</span> mouth == <span class="hljs-number">5</span> <span class="hljs-keyword">and</span> <span class="hljs-number">1</span>&lt;= day &lt;=<span class="hljs-number">20</span>:<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;你的星座是金牛座&quot;</span>)<br><span class="hljs-keyword">else</span>:<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;你是其他星座&quot;</span>)<br></code></pre></td></tr></table></figure>
 
-<h1 id="在列表中使用len-指令查询总元素数量"><a href="#在列表中使用len-指令查询总元素数量" class="headerlink" title="在列表中使用len()指令查询总元素数量"></a>在列表中使用len()指令查询总元素数量</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">score = [<span class="number">99</span>,<span class="number">88</span>,<span class="number">92</span>,<span class="number">100</span>,<span class="number">66</span>,<span class="number">85</span>,<span class="number">57</span>,<span class="number">79</span>,<span class="number">90</span>,<span class="number">61</span>]</span><br><span class="line">num = <span class="built_in">len</span>(score)</span><br><span class="line"><span class="built_in">print</span>(num)</span><br></pre></td></tr></table></figure>
+<h1 id="字符串中使用“-”或-t转义字符-空一格"><a href="#字符串中使用“-”或-t转义字符-空一格" class="headerlink" title="字符串中使用“ ”或\t转义字符 空一格"></a>字符串中使用“ ”或\t转义字符 空一格</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs python">string1 = <span class="hljs-string">&quot;Hello&quot;</span><br>string2 = <span class="hljs-string">&quot;World&quot;</span><br><span class="hljs-built_in">print</span>( string1,<span class="hljs-string">&quot; &quot;</span>,string2 )<br><span class="hljs-built_in">print</span>(string1,<span class="hljs-string">&quot;\t&quot;</span>,string2)<br></code></pre></td></tr></table></figure>
 
-<h1 id="在列表中使用sort-函数，对函数从小到大排序并输出"><a href="#在列表中使用sort-函数，对函数从小到大排序并输出" class="headerlink" title="在列表中使用sort()函数，对函数从小到大排序并输出"></a>在列表中使用sort()函数，对函数从小到大排序并输出</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">score = [<span class="number">99</span>,<span class="number">88</span>,<span class="number">92</span>,<span class="number">100</span>,<span class="number">66</span>,<span class="number">85</span>,<span class="number">57</span>,<span class="number">79</span>,<span class="number">90</span>,<span class="number">61</span>]</span><br><span class="line">score.sort()</span><br><span class="line"><span class="built_in">print</span>(score)</span><br></pre></td></tr></table></figure>
+<h1 id="列表aList元素访问与计数"><a href="#列表aList元素访问与计数" class="headerlink" title="列表aList元素访问与计数"></a>列表aList元素访问与计数</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs python">score = [<span class="hljs-number">99</span>,<span class="hljs-number">88</span>,<span class="hljs-number">92</span>,<span class="hljs-number">100</span>,<span class="hljs-number">66</span>,<span class="hljs-number">85</span>,<span class="hljs-number">57</span>,<span class="hljs-number">79</span>,<span class="hljs-number">90</span>,<span class="hljs-number">61</span>]<br>score[<span class="hljs-number">0</span>:<span class="hljs-number">5</span>:]<br><br>score = [<span class="hljs-number">99</span>,<span class="hljs-number">88</span>,<span class="hljs-number">92</span>,<span class="hljs-number">100</span>,<span class="hljs-number">66</span>,<span class="hljs-number">85</span>,<span class="hljs-number">57</span>,<span class="hljs-number">79</span>,<span class="hljs-number">90</span>,<span class="hljs-number">61</span>]<br>score[<span class="hljs-number">2</span>]<br></code></pre></td></tr></table></figure>
 
-<h1 id="在列表中使用reverse-函数，颠倒函数顺序"><a href="#在列表中使用reverse-函数，颠倒函数顺序" class="headerlink" title="在列表中使用reverse()函数，颠倒函数顺序"></a>在列表中使用reverse()函数，颠倒函数顺序</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">score = [<span class="number">99</span>,<span class="number">88</span>,<span class="number">92</span>,<span class="number">100</span>,<span class="number">66</span>,<span class="number">85</span>,<span class="number">57</span>,<span class="number">79</span>,<span class="number">90</span>,<span class="number">61</span>]</span><br><span class="line">score.reverse()</span><br><span class="line"><span class="built_in">print</span>(score)</span><br></pre></td></tr></table></figure>
+<h1 id="列表aList元素的增加指令—append、extend、insert、"><a href="#列表aList元素的增加指令—append、extend、insert、" class="headerlink" title="列表aList元素的增加指令—append、extend、insert、*"></a>列表aList元素的增加指令—append、extend、insert、*</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python">score = [<span class="hljs-number">99</span>,<span class="hljs-number">88</span>,<span class="hljs-number">92</span>,<span class="hljs-number">100</span>,<span class="hljs-number">66</span>,<span class="hljs-number">85</span>,<span class="hljs-number">57</span>,<span class="hljs-number">79</span>,<span class="hljs-number">90</span>,<span class="hljs-number">61</span>]<br>score.insert(<span class="hljs-number">2</span>,<span class="hljs-number">6</span>)<br>score[::<span class="hljs-number">1</span>]<br></code></pre></td></tr></table></figure>
 
-<h1 id="元组的创建与删除-——-使用tuple函数和del删除"><a href="#元组的创建与删除-——-使用tuple函数和del删除" class="headerlink" title="元组的创建与删除 —— 使用tuple函数和del删除"></a>元组的创建与删除 —— 使用tuple函数和del删除</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">aList = [-<span class="number">1</span>,-<span class="number">4</span>,<span class="number">6</span>,<span class="number">7.5</span>,-<span class="number">2.3</span>,<span class="number">9</span>,-<span class="number">11</span>]</span><br><span class="line"><span class="built_in">tuple</span>(aList)</span><br><span class="line"><span class="built_in">print</span> (<span class="built_in">tuple</span>(aList)[<span class="number">1</span>])</span><br><span class="line"></span><br><span class="line">a = [<span class="number">99</span>,<span class="number">88</span>,<span class="number">92</span>,<span class="number">100</span>,<span class="number">66</span>,<span class="number">85</span>,<span class="number">57</span>,<span class="number">79</span>,<span class="number">90</span>,<span class="number">61</span>]</span><br><span class="line">b = <span class="built_in">tuple</span>(a)</span><br><span class="line"><span class="built_in">print</span>(b)</span><br><span class="line"><span class="keyword">del</span> b </span><br><span class="line"><span class="built_in">print</span> b</span><br></pre></td></tr></table></figure>
+<h1 id="列表aList元素的删减指令—pop-、remove"><a href="#列表aList元素的删减指令—pop-、remove" class="headerlink" title="列表aList元素的删减指令—pop()、remove()"></a>列表aList元素的删减指令—pop()、remove()</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python">score = [<span class="hljs-number">99</span>,<span class="hljs-number">88</span>,<span class="hljs-number">92</span>,<span class="hljs-number">100</span>,<span class="hljs-number">66</span>,<span class="hljs-number">85</span>,<span class="hljs-number">57</span>,<span class="hljs-number">79</span>,<span class="hljs-number">90</span>,<span class="hljs-number">61</span>]<br>score.pop(<span class="hljs-number">1</span>)<br>score<br></code></pre></td></tr></table></figure>
 
-<h1 id="序列解包-——-对于列表和字典同样有效"><a href="#序列解包-——-对于列表和字典同样有效" class="headerlink" title="序列解包 —— 对于列表和字典同样有效"></a>序列解包 —— 对于列表和字典同样有效</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 同时对多个变量进行赋值</span></span><br><span class="line">v_tuple = (<span class="literal">False</span>,<span class="number">3.5</span>,<span class="string">&#x27;exp&#x27;</span>)</span><br><span class="line">(x,y,z) = v_tuple</span><br><span class="line"><span class="built_in">print</span>(x)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 列表和字典的解包</span></span><br><span class="line">a = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">b,c,d = a</span><br><span class="line"><span class="built_in">print</span>(a)</span><br><span class="line">s = &#123;<span class="string">&#x27;a&#x27;</span>:<span class="number">1</span>,<span class="string">&#x27;b&#x27;</span>:<span class="number">2</span>,<span class="string">&#x27;c&#x27;</span>:<span class="number">3</span>&#125;</span><br><span class="line">b,c,d = s.items()</span><br><span class="line"><span class="built_in">print</span>(b,c,d)</span><br><span class="line"></span><br><span class="line">aList = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">bList = [<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]</span><br><span class="line">cList = [<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>]</span><br><span class="line">dList = <span class="built_in">zip</span>(aList,bList,cList)</span><br><span class="line"><span class="keyword">for</span> index,value <span class="keyword">in</span> <span class="built_in">enumerate</span>(dList):</span><br><span class="line">    <span class="built_in">print</span>(index,<span class="string">&#x27;:&#x27;</span>,value)</span><br></pre></td></tr></table></figure>
+<h1 id="在列表外-x2F-中去使用循环语句去除指定元素"><a href="#在列表外-x2F-中去使用循环语句去除指定元素" class="headerlink" title="在列表外&#x2F;中去使用循环语句去除指定元素"></a>在列表外&#x2F;中去使用循环语句去除指定元素</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs python">a = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>]<br><span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> a:<br>    <span class="hljs-keyword">if</span> i = <span class="hljs-number">1</span>:<br>        a.remove()<br><span class="hljs-built_in">print</span>(a)<br><br>a = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">1</span>,<span class="hljs-number">2</span>]<br>a = [i <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> a <span class="hljs-keyword">if</span> i !=<span class="hljs-number">1</span>]<br><span class="hljs-built_in">print</span>(a)<br></code></pre></td></tr></table></figure>
 
-<h1 id="将元组转换成列表的指令-——-list指令"><a href="#将元组转换成列表的指令-——-list指令" class="headerlink" title="将元组转换成列表的指令 —— list指令"></a>将元组转换成列表的指令 —— list指令</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a = (<span class="string">&#x27;茸华似雪&#x27;</span>,<span class="number">520</span>,<span class="string">&#x27;唯世恋茸&#x27;</span>,<span class="number">521</span>)</span><br><span class="line">b = <span class="built_in">list</span>(a)</span><br><span class="line"><span class="built_in">print</span>(a)</span><br></pre></td></tr></table></figure>
+<h1 id="在列表中使用count-指令查询指定元素次数"><a href="#在列表中使用count-指令查询指定元素次数" class="headerlink" title="在列表中使用count()指令查询指定元素次数"></a>在列表中使用count()指令查询指定元素次数</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs python">score = [<span class="hljs-number">99</span>,<span class="hljs-number">88</span>,<span class="hljs-number">92</span>,<span class="hljs-number">100</span>,<span class="hljs-number">66</span>,<span class="hljs-number">85</span>,<span class="hljs-number">57</span>,<span class="hljs-number">79</span>,<span class="hljs-number">90</span>,<span class="hljs-number">61</span>]<br>num = score<br>count = num.count(<span class="hljs-number">90</span>)<br><span class="hljs-built_in">print</span>(count)<br></code></pre></td></tr></table></figure>
 
-<h1 id="将元组转换成列表后增添-x2F-减少元素"><a href="#将元组转换成列表后增添-x2F-减少元素" class="headerlink" title="将元组转换成列表后增添&#x2F;减少元素"></a>将元组转换成列表后增添&#x2F;减少元素</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = (<span class="string">&#x27;茸华似雪&#x27;</span>,<span class="number">520</span>,<span class="string">&#x27;唯世恋茸&#x27;</span>,<span class="number">521</span>)</span><br><span class="line">b = <span class="built_in">list</span>(a)</span><br><span class="line">b[<span class="number">0</span>] = <span class="string">&#x27;茸华是小丑&#x27;</span></span><br><span class="line"><span class="built_in">print</span>(b)</span><br></pre></td></tr></table></figure>
+<h1 id="在列表中使用len-指令查询总元素数量"><a href="#在列表中使用len-指令查询总元素数量" class="headerlink" title="在列表中使用len()指令查询总元素数量"></a>在列表中使用len()指令查询总元素数量</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python">score = [<span class="hljs-number">99</span>,<span class="hljs-number">88</span>,<span class="hljs-number">92</span>,<span class="hljs-number">100</span>,<span class="hljs-number">66</span>,<span class="hljs-number">85</span>,<span class="hljs-number">57</span>,<span class="hljs-number">79</span>,<span class="hljs-number">90</span>,<span class="hljs-number">61</span>]<br>num = <span class="hljs-built_in">len</span>(score)<br><span class="hljs-built_in">print</span>(num)<br></code></pre></td></tr></table></figure>
 
-<h1 id="字典创建与删除-——-创造字典"><a href="#字典创建与删除-——-创造字典" class="headerlink" title="字典创建与删除 —— 创造字典"></a>字典创建与删除 —— 创造字典</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a_dict = &#123;<span class="string">&#x27;name&#x27;</span>:<span class="string">&#x27;茸华似雪&#x27;</span>,<span class="string">&#x27;age&#x27;</span>:<span class="number">18</span>&#125;</span><br><span class="line">x = &#123;&#125; <span class="comment">#空字典</span></span><br><span class="line"><span class="built_in">print</span>(a_dict,x)</span><br></pre></td></tr></table></figure>
+<h1 id="在列表中使用sort-函数，对函数从小到大排序并输出"><a href="#在列表中使用sort-函数，对函数从小到大排序并输出" class="headerlink" title="在列表中使用sort()函数，对函数从小到大排序并输出"></a>在列表中使用sort()函数，对函数从小到大排序并输出</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python">score = [<span class="hljs-number">99</span>,<span class="hljs-number">88</span>,<span class="hljs-number">92</span>,<span class="hljs-number">100</span>,<span class="hljs-number">66</span>,<span class="hljs-number">85</span>,<span class="hljs-number">57</span>,<span class="hljs-number">79</span>,<span class="hljs-number">90</span>,<span class="hljs-number">61</span>]<br>score.sort()<br><span class="hljs-built_in">print</span>(score)<br></code></pre></td></tr></table></figure>
 
-<h1 id="字典创建与删除-——-相关dict使用"><a href="#字典创建与删除-——-相关dict使用" class="headerlink" title="字典创建与删除 —— 相关dict使用"></a>字典创建与删除 —— 相关dict使用</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">d = <span class="built_in">dict</span>(name = <span class="string">&#x27;茸华&#x27;</span>,age = <span class="number">18</span>)</span><br><span class="line">x = <span class="built_in">dict</span>() <span class="comment"># 空字典</span></span><br><span class="line"><span class="built_in">print</span>(d,x)</span><br><span class="line"></span><br><span class="line">keys = [<span class="string">&#x27;a&#x27;</span>,<span class="string">&#x27;b&#x27;</span>,<span class="string">&#x27;c&#x27;</span>]</span><br><span class="line">values = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">dictionary = <span class="built_in">dict</span>(<span class="built_in">zip</span>(keys,values))</span><br><span class="line"><span class="built_in">print</span>(dictionary)</span><br></pre></td></tr></table></figure>
+<h1 id="在列表中使用reverse-函数，颠倒函数顺序"><a href="#在列表中使用reverse-函数，颠倒函数顺序" class="headerlink" title="在列表中使用reverse()函数，颠倒函数顺序"></a>在列表中使用reverse()函数，颠倒函数顺序</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python">score = [<span class="hljs-number">99</span>,<span class="hljs-number">88</span>,<span class="hljs-number">92</span>,<span class="hljs-number">100</span>,<span class="hljs-number">66</span>,<span class="hljs-number">85</span>,<span class="hljs-number">57</span>,<span class="hljs-number">79</span>,<span class="hljs-number">90</span>,<span class="hljs-number">61</span>]<br>score.reverse()<br><span class="hljs-built_in">print</span>(score)<br></code></pre></td></tr></table></figure>
 
-<h1 id="字典创建与删除-——-del使用"><a href="#字典创建与删除-——-del使用" class="headerlink" title="字典创建与删除 —— del使用"></a>字典创建与删除 —— del使用</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">add=<span class="built_in">dict</span> = <span class="built_in">dict</span>.fromkeys([<span class="string">&#x27;name&#x27;</span>,<span class="string">&#x27;age&#x27;</span>,<span class="string">&#x27;gender&#x27;</span>])</span><br><span class="line"><span class="built_in">print</span>(add)</span><br><span class="line"><span class="keyword">del</span> add</span><br></pre></td></tr></table></figure>
+<h1 id="元组的创建与删除-——-使用tuple函数和del删除"><a href="#元组的创建与删除-——-使用tuple函数和del删除" class="headerlink" title="元组的创建与删除 —— 使用tuple函数和del删除"></a>元组的创建与删除 —— 使用tuple函数和del删除</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs python">aList = [-<span class="hljs-number">1</span>,-<span class="hljs-number">4</span>,<span class="hljs-number">6</span>,<span class="hljs-number">7.5</span>,-<span class="hljs-number">2.3</span>,<span class="hljs-number">9</span>,-<span class="hljs-number">11</span>]<br><span class="hljs-built_in">tuple</span>(aList)<br><span class="hljs-built_in">print</span> (<span class="hljs-built_in">tuple</span>(aList)[<span class="hljs-number">1</span>])<br><br>a = [<span class="hljs-number">99</span>,<span class="hljs-number">88</span>,<span class="hljs-number">92</span>,<span class="hljs-number">100</span>,<span class="hljs-number">66</span>,<span class="hljs-number">85</span>,<span class="hljs-number">57</span>,<span class="hljs-number">79</span>,<span class="hljs-number">90</span>,<span class="hljs-number">61</span>]<br>b = <span class="hljs-built_in">tuple</span>(a)<br><span class="hljs-built_in">print</span>(b)<br><span class="hljs-keyword">del</span> b <br><span class="hljs-built_in">print</span> b<br></code></pre></td></tr></table></figure>
 
-<h1 id="字典创建与删除-——-get、items的使用"><a href="#字典创建与删除-——-get、items的使用" class="headerlink" title="字典创建与删除 —— get、items的使用"></a>字典创建与删除 —— get、items的使用</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">a_dict = &#123;<span class="string">&#x27;name&#x27;</span>:<span class="string">&#x27;茸华似雪&#x27;</span>,<span class="string">&#x27;age&#x27;</span>:<span class="number">18</span>&#125;</span><br><span class="line"><span class="built_in">print</span>(a_dict.get(<span class="string">&#x27;na&#x27;</span>))</span><br><span class="line"><span class="built_in">print</span>(a_dict.get(<span class="string">&#x27;name&#x27;</span>))</span><br><span class="line"></span><br><span class="line">a = &#123;<span class="string">&#x27;name&#x27;</span>:<span class="string">&#x27;茸华似雪&#x27;</span>,<span class="string">&#x27;age&#x27;</span>:<span class="number">18</span>&#125;</span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> a.items():</span><br><span class="line">    <span class="built_in">print</span>(item)</span><br><span class="line"></span><br><span class="line">keys = [<span class="string">&#x27;a&#x27;</span>,<span class="string">&#x27;b&#x27;</span>,<span class="string">&#x27;c&#x27;</span>]</span><br><span class="line">values = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>]</span><br><span class="line">dictionary = <span class="built_in">dict</span>(<span class="built_in">zip</span>(keys,values))</span><br><span class="line">a = &#123;<span class="string">&#x27;name&#x27;</span>:<span class="string">&#x27;茸华似雪&#x27;</span>,<span class="string">&#x27;age&#x27;</span>:<span class="number">18</span>,<span class="string">&#x27;gender&#x27;</span>:<span class="string">&#x27;male&#x27;</span>&#125;</span><br><span class="line"><span class="keyword">for</span> keys,values <span class="keyword">in</span> a.items():</span><br><span class="line">    <span class="built_in">print</span>(keys,values)</span><br></pre></td></tr></table></figure>
+<h1 id="序列解包-——-对于列表和字典同样有效"><a href="#序列解包-——-对于列表和字典同样有效" class="headerlink" title="序列解包 —— 对于列表和字典同样有效"></a>序列解包 —— 对于列表和字典同样有效</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 同时对多个变量进行赋值</span><br>v_tuple = (<span class="hljs-literal">False</span>,<span class="hljs-number">3.5</span>,<span class="hljs-string">&#x27;exp&#x27;</span>)<br>(x,y,z) = v_tuple<br><span class="hljs-built_in">print</span>(x)<br><br><span class="hljs-comment"># 列表和字典的解包</span><br>a = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]<br>b,c,d = a<br><span class="hljs-built_in">print</span>(a)<br>s = &#123;<span class="hljs-string">&#x27;a&#x27;</span>:<span class="hljs-number">1</span>,<span class="hljs-string">&#x27;b&#x27;</span>:<span class="hljs-number">2</span>,<span class="hljs-string">&#x27;c&#x27;</span>:<span class="hljs-number">3</span>&#125;<br>b,c,d = s.items()<br><span class="hljs-built_in">print</span>(b,c,d)<br><br>aList = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]<br>bList = [<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>]<br>cList = [<span class="hljs-number">7</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>]<br>dList = <span class="hljs-built_in">zip</span>(aList,bList,cList)<br><span class="hljs-keyword">for</span> index,value <span class="hljs-keyword">in</span> <span class="hljs-built_in">enumerate</span>(dList):<br>    <span class="hljs-built_in">print</span>(index,<span class="hljs-string">&#x27;:&#x27;</span>,value)<br></code></pre></td></tr></table></figure>
 
-<h1 id="字典创建与删除-——-del、clear-、pop-、popitem的使用"><a href="#字典创建与删除-——-del、clear-、pop-、popitem的使用" class="headerlink" title="字典创建与删除 —— del、clear()、pop()、popitem的使用"></a>字典创建与删除 —— del、clear()、pop()、popitem的使用</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">a = &#123;<span class="string">&#x27;name&#x27;</span>:<span class="string">&#x27;茸华似雪&#x27;</span>,<span class="string">&#x27;age&#x27;</span>:<span class="number">18</span>&#125;</span><br><span class="line"><span class="keyword">del</span> a[<span class="string">&#x27;a&#x27;</span>]</span><br><span class="line">a = &#123;<span class="string">&#x27;name&#x27;</span>:<span class="string">&#x27;茸华似雪&#x27;</span>,<span class="string">&#x27;age&#x27;</span>:<span class="number">18</span>&#125;</span><br><span class="line">a.clear()</span><br><span class="line">a = &#123;<span class="string">&#x27;name&#x27;</span>:<span class="string">&#x27;茸华似雪&#x27;</span>,<span class="string">&#x27;age&#x27;</span>:<span class="number">18</span>,<span class="string">&#x27;b&#x27;</span>:<span class="number">5</span>&#125;</span><br><span class="line">a.pop(<span class="string">&#x27;b&#x27;</span>)</span><br><span class="line">a = &#123;<span class="string">&#x27;name&#x27;</span>:<span class="string">&#x27;茸华似雪&#x27;</span>,<span class="string">&#x27;age&#x27;</span>:<span class="number">18</span>,<span class="string">&#x27;b&#x27;</span>:<span class="number">5</span>&#125;</span><br><span class="line">a.popitem()</span><br></pre></td></tr></table></figure>
+<h1 id="将元组转换成列表的指令-——-list指令"><a href="#将元组转换成列表的指令-——-list指令" class="headerlink" title="将元组转换成列表的指令 —— list指令"></a>将元组转换成列表的指令 —— list指令</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python">a = (<span class="hljs-string">&#x27;茸华似雪&#x27;</span>,<span class="hljs-number">520</span>,<span class="hljs-string">&#x27;唯世恋茸&#x27;</span>,<span class="hljs-number">521</span>)<br>b = <span class="hljs-built_in">list</span>(a)<br><span class="hljs-built_in">print</span>(a)<br></code></pre></td></tr></table></figure>
+
+<h1 id="将元组转换成列表后增添-x2F-减少元素"><a href="#将元组转换成列表后增添-x2F-减少元素" class="headerlink" title="将元组转换成列表后增添&#x2F;减少元素"></a>将元组转换成列表后增添&#x2F;减少元素</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs python">a = (<span class="hljs-string">&#x27;茸华似雪&#x27;</span>,<span class="hljs-number">520</span>,<span class="hljs-string">&#x27;唯世恋茸&#x27;</span>,<span class="hljs-number">521</span>)<br>b = <span class="hljs-built_in">list</span>(a)<br>b[<span class="hljs-number">0</span>] = <span class="hljs-string">&#x27;茸华是小丑&#x27;</span><br><span class="hljs-built_in">print</span>(b)<br></code></pre></td></tr></table></figure>
+
+<h1 id="字典创建与删除-——-创造字典"><a href="#字典创建与删除-——-创造字典" class="headerlink" title="字典创建与删除 —— 创造字典"></a>字典创建与删除 —— 创造字典</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python">a_dict = &#123;<span class="hljs-string">&#x27;name&#x27;</span>:<span class="hljs-string">&#x27;茸华似雪&#x27;</span>,<span class="hljs-string">&#x27;age&#x27;</span>:<span class="hljs-number">18</span>&#125;<br>x = &#123;&#125; <span class="hljs-comment">#空字典</span><br><span class="hljs-built_in">print</span>(a_dict,x)<br></code></pre></td></tr></table></figure>
+
+<h1 id="字典创建与删除-——-相关dict使用"><a href="#字典创建与删除-——-相关dict使用" class="headerlink" title="字典创建与删除 —— 相关dict使用"></a>字典创建与删除 —— 相关dict使用</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs python">d = <span class="hljs-built_in">dict</span>(name = <span class="hljs-string">&#x27;茸华&#x27;</span>,age = <span class="hljs-number">18</span>)<br>x = <span class="hljs-built_in">dict</span>() <span class="hljs-comment"># 空字典</span><br><span class="hljs-built_in">print</span>(d,x)<br><br>keys = [<span class="hljs-string">&#x27;a&#x27;</span>,<span class="hljs-string">&#x27;b&#x27;</span>,<span class="hljs-string">&#x27;c&#x27;</span>]<br>values = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]<br>dictionary = <span class="hljs-built_in">dict</span>(<span class="hljs-built_in">zip</span>(keys,values))<br><span class="hljs-built_in">print</span>(dictionary)<br></code></pre></td></tr></table></figure>
+
+<h1 id="字典创建与删除-——-del使用"><a href="#字典创建与删除-——-del使用" class="headerlink" title="字典创建与删除 —— del使用"></a>字典创建与删除 —— del使用</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python">add=<span class="hljs-built_in">dict</span> = <span class="hljs-built_in">dict</span>.fromkeys([<span class="hljs-string">&#x27;name&#x27;</span>,<span class="hljs-string">&#x27;age&#x27;</span>,<span class="hljs-string">&#x27;gender&#x27;</span>])<br><span class="hljs-built_in">print</span>(add)<br><span class="hljs-keyword">del</span> add<br></code></pre></td></tr></table></figure>
+
+<h1 id="字典创建与删除-——-get、items的使用"><a href="#字典创建与删除-——-get、items的使用" class="headerlink" title="字典创建与删除 —— get、items的使用"></a>字典创建与删除 —— get、items的使用</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs python">a_dict = &#123;<span class="hljs-string">&#x27;name&#x27;</span>:<span class="hljs-string">&#x27;茸华似雪&#x27;</span>,<span class="hljs-string">&#x27;age&#x27;</span>:<span class="hljs-number">18</span>&#125;<br><span class="hljs-built_in">print</span>(a_dict.get(<span class="hljs-string">&#x27;na&#x27;</span>))<br><span class="hljs-built_in">print</span>(a_dict.get(<span class="hljs-string">&#x27;name&#x27;</span>))<br><br>a = &#123;<span class="hljs-string">&#x27;name&#x27;</span>:<span class="hljs-string">&#x27;茸华似雪&#x27;</span>,<span class="hljs-string">&#x27;age&#x27;</span>:<span class="hljs-number">18</span>&#125;<br><span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> a.items():<br>    <span class="hljs-built_in">print</span>(item)<br><br>keys = [<span class="hljs-string">&#x27;a&#x27;</span>,<span class="hljs-string">&#x27;b&#x27;</span>,<span class="hljs-string">&#x27;c&#x27;</span>]<br>values = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>]<br>dictionary = <span class="hljs-built_in">dict</span>(<span class="hljs-built_in">zip</span>(keys,values))<br>a = &#123;<span class="hljs-string">&#x27;name&#x27;</span>:<span class="hljs-string">&#x27;茸华似雪&#x27;</span>,<span class="hljs-string">&#x27;age&#x27;</span>:<span class="hljs-number">18</span>,<span class="hljs-string">&#x27;gender&#x27;</span>:<span class="hljs-string">&#x27;male&#x27;</span>&#125;<br><span class="hljs-keyword">for</span> keys,values <span class="hljs-keyword">in</span> a.items():<br>    <span class="hljs-built_in">print</span>(keys,values)<br></code></pre></td></tr></table></figure>
+
+<h1 id="字典创建与删除-——-del、clear-、pop-、popitem的使用"><a href="#字典创建与删除-——-del、clear-、pop-、popitem的使用" class="headerlink" title="字典创建与删除 —— del、clear()、pop()、popitem的使用"></a>字典创建与删除 —— del、clear()、pop()、popitem的使用</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs python">a = &#123;<span class="hljs-string">&#x27;name&#x27;</span>:<span class="hljs-string">&#x27;茸华似雪&#x27;</span>,<span class="hljs-string">&#x27;age&#x27;</span>:<span class="hljs-number">18</span>&#125;<br><span class="hljs-keyword">del</span> a[<span class="hljs-string">&#x27;a&#x27;</span>]<br>a = &#123;<span class="hljs-string">&#x27;name&#x27;</span>:<span class="hljs-string">&#x27;茸华似雪&#x27;</span>,<span class="hljs-string">&#x27;age&#x27;</span>:<span class="hljs-number">18</span>&#125;<br>a.clear()<br>a = &#123;<span class="hljs-string">&#x27;name&#x27;</span>:<span class="hljs-string">&#x27;茸华似雪&#x27;</span>,<span class="hljs-string">&#x27;age&#x27;</span>:<span class="hljs-number">18</span>,<span class="hljs-string">&#x27;b&#x27;</span>:<span class="hljs-number">5</span>&#125;<br>a.pop(<span class="hljs-string">&#x27;b&#x27;</span>)<br>a = &#123;<span class="hljs-string">&#x27;name&#x27;</span>:<span class="hljs-string">&#x27;茸华似雪&#x27;</span>,<span class="hljs-string">&#x27;age&#x27;</span>:<span class="hljs-number">18</span>,<span class="hljs-string">&#x27;b&#x27;</span>:<span class="hljs-number">5</span>&#125;<br>a.popitem()<br></code></pre></td></tr></table></figure>
 
 
-<h1 id="Python数据类型"><a href="#Python数据类型" class="headerlink" title="Python数据类型"></a>Python数据类型</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 整数 int</span></span><br><span class="line"><span class="comment"># 小数 float</span></span><br><span class="line"><span class="comment"># 字符串 string</span></span><br><span class="line"><span class="comment"># 布尔函数 bool</span></span><br><span class="line"><span class="comment"># 列表 list</span></span><br><span class="line"><span class="comment"># 字典  dictionary</span></span><br><span class="line"><span class="comment"># 元组 tuple</span></span><br><span class="line"><span class="comment"># 集合 set</span></span><br><span class="line"><span class="comment"># 函数 def</span></span><br></pre></td></tr></table></figure>
+<h1 id="Python数据类型"><a href="#Python数据类型" class="headerlink" title="Python数据类型"></a>Python数据类型</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 整数 int</span><br><span class="hljs-comment"># 小数 float</span><br><span class="hljs-comment"># 字符串 string</span><br><span class="hljs-comment"># 布尔函数 bool</span><br><span class="hljs-comment"># 列表 list</span><br><span class="hljs-comment"># 字典  dictionary</span><br><span class="hljs-comment"># 元组 tuple</span><br><span class="hljs-comment"># 集合 set</span><br><span class="hljs-comment"># 函数 def</span><br></code></pre></td></tr></table></figure>
 
-<h1 id="函数代入数值"><a href="#函数代入数值" class="headerlink" title="函数代入数值"></a>函数代入数值</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">add2num</span>(<span class="params">a,b</span>):</span><br><span class="line">    c = a + b</span><br><span class="line">    <span class="built_in">print</span>(c)</span><br><span class="line">add2num(<span class="number">11</span>,<span class="number">22</span>)</span><br></pre></td></tr></table></figure>
+<h1 id="函数代入数值"><a href="#函数代入数值" class="headerlink" title="函数代入数值"></a>函数代入数值</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">add2num</span>(<span class="hljs-params">a,b</span>):<br>    c = a + b<br>    <span class="hljs-built_in">print</span>(c)<br>add2num(<span class="hljs-number">11</span>,<span class="hljs-number">22</span>)<br></code></pre></td></tr></table></figure>
 
-<h1 id="最常用的有参数有返回值的函数"><a href="#最常用的有参数有返回值的函数" class="headerlink" title="最常用的有参数有返回值的函数"></a>最常用的有参数有返回值的函数</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">Anum</span>(<span class="params">num</span>):</span><br><span class="line">    result = <span class="number">0</span></span><br><span class="line">    i = <span class="number">1</span></span><br><span class="line">    <span class="keyword">while</span> i &lt;= num:</span><br><span class="line">        result = result + i</span><br><span class="line">        i += <span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> result</span><br><span class="line">result = Anum(<span class="number">100</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;1~100的累积和为:&#x27;</span>,result)</span><br></pre></td></tr></table></figure>
+<h1 id="最常用的有参数有返回值的函数"><a href="#最常用的有参数有返回值的函数" class="headerlink" title="最常用的有参数有返回值的函数"></a>最常用的有参数有返回值的函数</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">Anum</span>(<span class="hljs-params">num</span>):<br>    result = <span class="hljs-number">0</span><br>    i = <span class="hljs-number">1</span><br>    <span class="hljs-keyword">while</span> i &lt;= num:<br>        result = result + i<br>        i += <span class="hljs-number">1</span><br>    <span class="hljs-keyword">return</span> result<br>result = Anum(<span class="hljs-number">100</span>)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&#x27;1~100的累积和为:&#x27;</span>,result)<br></code></pre></td></tr></table></figure>
 
-<h1 id="使用结巴分词库"><a href="#使用结巴分词库" class="headerlink" title="使用结巴分词库"></a>使用结巴分词库</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line">text = <span class="string">&#x27;我喜欢茸华似雪&#x27;</span></span><br><span class="line"><span class="built_in">print</span>(text)</span><br></pre></td></tr></table></figure>
+<h1 id="使用结巴分词库"><a href="#使用结巴分词库" class="headerlink" title="使用结巴分词库"></a>使用结巴分词库</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> jieba<br>text = <span class="hljs-string">&#x27;我喜欢茸华似雪&#x27;</span><br><span class="hljs-built_in">print</span>(text)<br></code></pre></td></tr></table></figure>
 
-<h1 id="结巴分词的精确模式"><a href="#结巴分词的精确模式" class="headerlink" title="结巴分词的精确模式"></a>结巴分词的精确模式</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">words = jieba.cut(text,cut_all = <span class="literal">False</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;精确模式:&#x27;</span>,<span class="string">&#x27;/&#x27;</span>.join(words))</span><br></pre></td></tr></table></figure>
+<h1 id="结巴分词的精确模式"><a href="#结巴分词的精确模式" class="headerlink" title="结巴分词的精确模式"></a>结巴分词的精确模式</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python">words = jieba.cut(text,cut_all = <span class="hljs-literal">False</span>)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&#x27;精确模式:&#x27;</span>,<span class="hljs-string">&#x27;/&#x27;</span>.join(words))<br></code></pre></td></tr></table></figure>
 
-<h1 id="结巴分词的全模式"><a href="#结巴分词的全模式" class="headerlink" title="结巴分词的全模式"></a>结巴分词的全模式</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">words = jieba.cut(text,cut_all = <span class="literal">True</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;全模式:&#x27;</span>,<span class="string">&#x27;/&#x27;</span>.join(words))</span><br></pre></td></tr></table></figure>
-<h1 id="结巴分词的搜索模式"><a href="#结巴分词的搜索模式" class="headerlink" title="结巴分词的搜索模式"></a>结巴分词的搜索模式</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">words = jieba.cut_for_search(text)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;搜索模式:&#x27;</span>,<span class="string">&#x27;/&#x27;</span>.join(words))</span><br></pre></td></tr></table></figure>
-<h1 id="结巴分词的读取自带文件"><a href="#结巴分词的读取自带文件" class="headerlink" title="结巴分词的读取自带文件"></a>结巴分词的读取自带文件</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">r&#x27;E:/管理学/debug.log&#x27;</span>,encoding = <span class="string">&#x27;ansi&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">    text = f.read()</span><br><span class="line">text[<span class="number">0</span>:<span class="number">20</span>] <span class="comment">### 查看前前二十个字母 </span></span><br></pre></td></tr></table></figure>
-<h1 id="结巴分词的自定义词典"><a href="#结巴分词的自定义词典" class="headerlink" title="结巴分词的自定义词典"></a>结巴分词的自定义词典</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line">text = <span class="string">&#x27;南京市长江大桥&#x27;</span></span><br><span class="line">jieba.add_word(<span class="string">&#x27;南京市长&#x27;</span>)</span><br><span class="line">words = jieba.cut(text)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;分词后:&#x27;</span>,<span class="string">&#x27;/&#x27;</span>.join(words))</span><br></pre></td></tr></table></figure>
-<h1 id="结巴分词的词性标注"><a href="#结巴分词的词性标注" class="headerlink" title="结巴分词的词性标注"></a>结巴分词的词性标注</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba.posseg <span class="keyword">as</span> pseg</span><br><span class="line">text = <span class="string">&#x27;我喜欢茸华似雪&#x27;</span></span><br><span class="line">words = pseg.cut(text)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(words))</span><br><span class="line">words = <span class="built_in">list</span>(words)</span><br><span class="line"><span class="built_in">print</span>(words)</span><br><span class="line"><span class="keyword">for</span> word,flag <span class="keyword">in</span> words:</span><br><span class="line">    <span class="built_in">print</span>(word,flag)</span><br></pre></td></tr></table></figure>
+<h1 id="结巴分词的全模式"><a href="#结巴分词的全模式" class="headerlink" title="结巴分词的全模式"></a>结巴分词的全模式</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python">words = jieba.cut(text,cut_all = <span class="hljs-literal">True</span>)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&#x27;全模式:&#x27;</span>,<span class="hljs-string">&#x27;/&#x27;</span>.join(words))<br></code></pre></td></tr></table></figure>
+<h1 id="结巴分词的搜索模式"><a href="#结巴分词的搜索模式" class="headerlink" title="结巴分词的搜索模式"></a>结巴分词的搜索模式</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python">words = jieba.cut_for_search(text)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&#x27;搜索模式:&#x27;</span>,<span class="hljs-string">&#x27;/&#x27;</span>.join(words))<br></code></pre></td></tr></table></figure>
+<h1 id="结巴分词的读取自带文件"><a href="#结巴分词的读取自带文件" class="headerlink" title="结巴分词的读取自带文件"></a>结巴分词的读取自带文件</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">with</span> <span class="hljs-built_in">open</span>(<span class="hljs-string">r&#x27;E:/管理学/debug.log&#x27;</span>,encoding = <span class="hljs-string">&#x27;ansi&#x27;</span>) <span class="hljs-keyword">as</span> f:<br>    text = f.read()<br>text[<span class="hljs-number">0</span>:<span class="hljs-number">20</span>] <span class="hljs-comment">### 查看前前二十个字母 </span><br></code></pre></td></tr></table></figure>
+<h1 id="结巴分词的自定义词典"><a href="#结巴分词的自定义词典" class="headerlink" title="结巴分词的自定义词典"></a>结巴分词的自定义词典</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> jieba<br>text = <span class="hljs-string">&#x27;南京市长江大桥&#x27;</span><br>jieba.add_word(<span class="hljs-string">&#x27;南京市长&#x27;</span>)<br>words = jieba.cut(text)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&#x27;分词后:&#x27;</span>,<span class="hljs-string">&#x27;/&#x27;</span>.join(words))<br></code></pre></td></tr></table></figure>
+<h1 id="结巴分词的词性标注"><a href="#结巴分词的词性标注" class="headerlink" title="结巴分词的词性标注"></a>结巴分词的词性标注</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> jieba.posseg <span class="hljs-keyword">as</span> pseg<br>text = <span class="hljs-string">&#x27;我喜欢茸华似雪&#x27;</span><br>words = pseg.cut(text)<br><span class="hljs-built_in">print</span>(<span class="hljs-built_in">type</span>(words))<br>words = <span class="hljs-built_in">list</span>(words)<br><span class="hljs-built_in">print</span>(words)<br><span class="hljs-keyword">for</span> word,flag <span class="hljs-keyword">in</span> words:<br>    <span class="hljs-built_in">print</span>(word,flag)<br></code></pre></td></tr></table></figure>
 
-<h1 id="结巴分词的命名实体识别"><a href="#结巴分词的命名实体识别" class="headerlink" title="结巴分词的命名实体识别"></a>结巴分词的命名实体识别</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba.analyse</span><br><span class="line">text = <span class="string">&#x27;我喜欢茸华似雪&#x27;</span></span><br><span class="line">keywords = jieba.analyse.extract_tags(text,topK=<span class="number">6</span>)</span><br><span class="line"><span class="built_in">print</span>(keywords)</span><br></pre></td></tr></table></figure>
+<h1 id="结巴分词的命名实体识别"><a href="#结巴分词的命名实体识别" class="headerlink" title="结巴分词的命名实体识别"></a>结巴分词的命名实体识别</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> jieba.analyse<br>text = <span class="hljs-string">&#x27;我喜欢茸华似雪&#x27;</span><br>keywords = jieba.analyse.extract_tags(text,topK=<span class="hljs-number">6</span>)<br><span class="hljs-built_in">print</span>(keywords)<br></code></pre></td></tr></table></figure>
 
-<h1 id="结巴分词的情感分析"><a href="#结巴分词的情感分析" class="headerlink" title="结巴分词的情感分析"></a>结巴分词的情感分析</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba.analyse</span><br><span class="line"><span class="keyword">from</span> snownlp <span class="keyword">import</span> SnowNLP</span><br><span class="line">text =<span class="string">&quot;我很喜欢这部电影，它让我感到非常感动。&quot;</span></span><br><span class="line">keywords = jieba. analyse. extract_tags(text,topK=<span class="number">5</span>)</span><br><span class="line">s= SnowNLP(text)</span><br><span class="line">sentiment = s.sentiments</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;关键词:&quot;</span>, keywords)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;情感分析:&quot;</span>, sentiment)</span><br></pre></td></tr></table></figure>
+<h1 id="结巴分词的情感分析"><a href="#结巴分词的情感分析" class="headerlink" title="结巴分词的情感分析"></a>结巴分词的情感分析</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> jieba.analyse<br><span class="hljs-keyword">from</span> snownlp <span class="hljs-keyword">import</span> SnowNLP<br>text =<span class="hljs-string">&quot;我很喜欢这部电影，它让我感到非常感动。&quot;</span><br>keywords = jieba. analyse. extract_tags(text,topK=<span class="hljs-number">5</span>)<br>s= SnowNLP(text)<br>sentiment = s.sentiments<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;关键词:&quot;</span>, keywords)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">&quot;情感分析:&quot;</span>, sentiment)<br></code></pre></td></tr></table></figure>
 
-<h1 id="结巴分词的提取成语"><a href="#结巴分词的提取成语" class="headerlink" title="结巴分词的提取成语"></a>结巴分词的提取成语</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line"><span class="keyword">import</span> jieba.posseg <span class="keyword">as</span> pseg</span><br><span class="line"><span class="comment">### 加载自定义的词典——jieba.load_userdict(&quot;idiom_dict.txt&quot;)</span></span><br><span class="line">text = <span class="string">&quot;他说了一句顺口溜:“十年树木，百年树人”，意思是培养人才要从长远考虑。&quot;</span></span><br><span class="line">words = pseg. cut (text) <span class="comment">### 存储成语及其频次的字典</span></span><br><span class="line">idioms= &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> word, flag <span class="keyword">in</span> words:</span><br><span class="line">    <span class="comment">### 如果词性标签是i，说明是成语</span></span><br><span class="line">    <span class="keyword">if</span> flag== <span class="string">&quot;i&quot;</span> :</span><br><span class="line">        <span class="comment">### 如果成语已经在字典中，则将其频次加 1</span></span><br><span class="line">        <span class="keyword">if</span> word <span class="keyword">in</span> idioms:</span><br><span class="line">            idioms[word] += <span class="number">1</span></span><br><span class="line">        <span class="comment">### 如果成语不在字典中，则将其加入字典，并将频次初始化为 1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            idioms[word] = <span class="number">1</span></span><br><span class="line"><span class="keyword">for</span> idiom,count <span class="keyword">in</span> idioms.items():</span><br><span class="line">    <span class="built_in">print</span>(idiom,count)</span><br></pre></td></tr></table></figure>
+<h1 id="结巴分词的提取成语"><a href="#结巴分词的提取成语" class="headerlink" title="结巴分词的提取成语"></a>结巴分词的提取成语</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> jieba<br><span class="hljs-keyword">import</span> jieba.posseg <span class="hljs-keyword">as</span> pseg<br><span class="hljs-comment">### 加载自定义的词典——jieba.load_userdict(&quot;idiom_dict.txt&quot;)</span><br>text = <span class="hljs-string">&quot;他说了一句顺口溜:“十年树木，百年树人”，意思是培养人才要从长远考虑。&quot;</span><br>words = pseg. cut (text) <span class="hljs-comment">### 存储成语及其频次的字典</span><br>idioms= &#123;&#125;<br><span class="hljs-keyword">for</span> word, flag <span class="hljs-keyword">in</span> words:<br>    <span class="hljs-comment">### 如果词性标签是i，说明是成语</span><br>    <span class="hljs-keyword">if</span> flag== <span class="hljs-string">&quot;i&quot;</span> :<br>        <span class="hljs-comment">### 如果成语已经在字典中，则将其频次加 1</span><br>        <span class="hljs-keyword">if</span> word <span class="hljs-keyword">in</span> idioms:<br>            idioms[word] += <span class="hljs-number">1</span><br>        <span class="hljs-comment">### 如果成语不在字典中，则将其加入字典，并将频次初始化为 1</span><br>        <span class="hljs-keyword">else</span>:<br>            idioms[word] = <span class="hljs-number">1</span><br><span class="hljs-keyword">for</span> idiom,count <span class="hljs-keyword">in</span> idioms.items():<br>    <span class="hljs-built_in">print</span>(idiom,count)<br></code></pre></td></tr></table></figure>
 
-<h1 id="结巴分词的提取成语和介词"><a href="#结巴分词的提取成语和介词" class="headerlink" title="结巴分词的提取成语和介词"></a>结巴分词的提取成语和介词</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line">text = <span class="string">&quot;他在考场上表现得很出色，不过他还有很多不足之处，需要继续努力。&quot;</span></span><br><span class="line"><span class="comment">### 定义用于存储成语和代词的列表</span></span><br><span class="line">idioms = []</span><br><span class="line">pronouns = []</span><br><span class="line"><span class="comment">### 定义成语和代词的集合</span></span><br><span class="line">idioms_set =&#123;<span class="string">&#x27;半途而废&#x27;</span>,<span class="string">&#x27;不可思议&#x27;</span>,<span class="string">&#x27;不胫而走&#x27;</span>, <span class="string">&#x27;不言而喻&#x27;</span>,<span class="string">&#x27;大公无私&#x27;</span>, <span class="string">&#x27;大言不pronouns_set = (&#x27;</span>我<span class="string">&#x27;, &#x27;</span>你<span class="string">&#x27;,&#x27;</span>他<span class="string">&#x27;,&#x27;</span>她<span class="string">&#x27;, &#x27;</span>它<span class="string">&#x27;,&#x27;</span>我们<span class="string">&#x27;,&#x27;</span>你们<span class="string">&#x27;, &#x27;</span>他们<span class="string">&#x27;,&#x27;</span>她们<span class="string">&#x27;,&#x27;</span>它们<span class="string">&#x27;)</span></span><br><span class="line"><span class="string">### 对文本进行分词</span></span><br><span class="line"><span class="string">words = jieba.cut(text)</span></span><br><span class="line"><span class="string">### 遍历分词后的结果，提取成语和代词</span></span><br><span class="line"><span class="string">for word in words :</span></span><br><span class="line"><span class="string">    if len(word) == 4 and word in idioms_set :</span></span><br><span class="line"><span class="string">### 如果是成语，则加入到成语列表中</span></span><br><span class="line"><span class="string">        idioms. append(word)</span></span><br><span class="line"><span class="string">    elif word in pronouns_set:</span></span><br><span class="line"><span class="string">### 如果是代词，则加入到代词列表中</span></span><br><span class="line"><span class="string">        pronouns. append (word)</span></span><br><span class="line"><span class="string">### 输出提取结果</span></span><br><span class="line"><span class="string">print(&#x27;</span>成语:<span class="string">&#x27;,idioms)</span></span><br><span class="line"><span class="string">print(&#x27;</span>代词:<span class="string">&#x27;,pronouns)</span></span><br></pre></td></tr></table></figure>
+<h1 id="结巴分词的提取成语和介词"><a href="#结巴分词的提取成语和介词" class="headerlink" title="结巴分词的提取成语和介词"></a>结巴分词的提取成语和介词</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> jieba<br>text = <span class="hljs-string">&quot;他在考场上表现得很出色，不过他还有很多不足之处，需要继续努力。&quot;</span><br><span class="hljs-comment">### 定义用于存储成语和代词的列表</span><br>idioms = []<br>pronouns = []<br><span class="hljs-comment">### 定义成语和代词的集合</span><br>idioms_set =&#123;<span class="hljs-string">&#x27;半途而废&#x27;</span>,<span class="hljs-string">&#x27;不可思议&#x27;</span>,<span class="hljs-string">&#x27;不胫而走&#x27;</span>, <span class="hljs-string">&#x27;不言而喻&#x27;</span>,<span class="hljs-string">&#x27;大公无私&#x27;</span>, <span class="hljs-string">&#x27;大言不pronouns_set = (&#x27;</span>我<span class="hljs-string">&#x27;, &#x27;</span>你<span class="hljs-string">&#x27;,&#x27;</span>他<span class="hljs-string">&#x27;,&#x27;</span>她<span class="hljs-string">&#x27;, &#x27;</span>它<span class="hljs-string">&#x27;,&#x27;</span>我们<span class="hljs-string">&#x27;,&#x27;</span>你们<span class="hljs-string">&#x27;, &#x27;</span>他们<span class="hljs-string">&#x27;,&#x27;</span>她们<span class="hljs-string">&#x27;,&#x27;</span>它们<span class="hljs-string">&#x27;)</span><br><span class="hljs-string">### 对文本进行分词</span><br><span class="hljs-string">words = jieba.cut(text)</span><br><span class="hljs-string">### 遍历分词后的结果，提取成语和代词</span><br><span class="hljs-string">for word in words :</span><br><span class="hljs-string">    if len(word) == 4 and word in idioms_set :</span><br><span class="hljs-string">### 如果是成语，则加入到成语列表中</span><br><span class="hljs-string">        idioms. append(word)</span><br><span class="hljs-string">    elif word in pronouns_set:</span><br><span class="hljs-string">### 如果是代词，则加入到代词列表中</span><br><span class="hljs-string">        pronouns. append (word)</span><br><span class="hljs-string">### 输出提取结果</span><br><span class="hljs-string">print(&#x27;</span>成语:<span class="hljs-string">&#x27;,idioms)</span><br><span class="hljs-string">print(&#x27;</span>代词:<span class="hljs-string">&#x27;,pronouns)</span><br></code></pre></td></tr></table></figure>
 <h1 id="课堂上词云图作业"><a href="#课堂上词云图作业" class="headerlink" title="课堂上词云图作业"></a>课堂上词云图作业</h1><pre><code class="python">from wordcloud import WordCloud                       	#导入
 import jieba
 import jieba.analyse
@@ -379,220 +397,343 @@ plt.axis(&quot;off&quot;)
 plt.show()
 </code></pre>
 
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/Python/" class="print-no-link">#Python</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>大学中Pyrhon数据基础与挖掘</div>
+      <div>http://ronghuasixue.com/2023/10/19/大学中Pyrhon数据基础与挖掘/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>茸华似雪</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2023年10月19日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2023/10/19/%E5%A4%A7%E4%B8%80%E6%9C%9F%E6%9C%AB%E4%BD%9C%E4%B8%9A/" title="大一期末作业">
+                        <span class="hidden-mobile">大一期末作业</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
     </div>
 
-    
-    
-    
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
 
-      <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/Python/" rel="tag"># Python</a>
-          </div>
-
-        
 
 
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2023/09/30/My-New-Way/" rel="prev" title="My New Way">
-      <i class="fa fa-chevron-left"></i> My New Way
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2023/10/19/%E5%A4%A7%E4%B8%80%E6%9C%9F%E6%9C%AB%E4%BD%9C%E4%B8%9A/" rel="next" title="大一期末作业">
-      大一期末作业 <i class="fa fa-chevron-right"></i>
-    </a></div>
+  </aside>
+
+
     </div>
-      </footer>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
     
-  </article>
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
   
   
   
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
 
 
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
 
-          </div>
-          
 
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
       }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
     }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
     });
-  }
+  });
 </script>
 
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
 
-  <aside class="sidebar">
-    <div class="sidebar-inner">
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
 
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
+  <script>Fluid.plugins.codeWidget();</script>
 
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%BF%99%E6%AE%B5%E4%BB%A3%E7%A0%81%E4%B8%BA%E5%A4%A7%E4%B8%80%E4%B8%8A%E5%8D%8A%E5%AD%A6%E6%9C%9F%E9%80%89%E4%BF%AE%E8%AF%BE%E7%A8%8BPython%E6%95%B0%E6%8D%AE%E5%9F%BA%E7%A1%80%E4%B8%8E%E6%8C%96%E6%8E%98"><span class="nav-number">1.</span> <span class="nav-text">这段代码为大一上半学期选修课程Python数据基础与挖掘</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-if-%E5%92%8C-else-%E5%91%BD%E4%BB%A4"><span class="nav-number">2.</span> <span class="nav-text">如何使用 if 和 else 命令</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8-for-sth-in-range-%E8%BF%9B%E8%A1%8C%E5%BE%AA%E7%8E%AF%E5%91%BD%E4%BB%A4%E5%90%8E-%E4%BD%BF%E7%94%A8-break-%E5%81%9C%E6%AD%A2%E5%91%BD%E4%BB%A4"><span class="nav-number">3.</span> <span class="nav-text">使用 for (sth) in range 进行循环命令后 使用 break 停止命令</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%82%A8%E5%AD%98%E6%96%B9%E5%BC%8F-%E2%80%94%E2%80%94-%E4%B8%8B%E6%A0%87%E7%BC%96%E5%8F%B7"><span class="nav-number">4.</span> <span class="nav-text">字符串中的储存方式 —— 下标编号</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E5%8F%AB%E5%88%87%E7%89%87"><span class="nav-number">5.</span> <span class="nav-text">什么叫切片</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%88%87%E7%89%87%E5%8A%A0%E4%B8%8B%E6%A0%87%E7%BC%96%E5%8F%B7"><span class="nav-number">6.</span> <span class="nav-text">使用切片加下标编号</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%BB%BA%E5%87%BD%E6%95%B0-%E2%80%94%E2%80%94-index%E5%87%BD%E6%95%B0-%E6%A3%80%E6%B5%8B%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%98%AF%E5%90%A6%E5%8C%85%E6%8B%AC%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="nav-number">7.</span> <span class="nav-text">字符串内建函数 —— index函数:检测字符串是否包括子字符串</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%BB%BA%E5%87%BD%E6%95%B0-%E2%80%94%E2%80%94-replace%E5%87%BD%E6%95%B0-%E5%B0%86%E6%97%A7%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%9B%BF%E6%8D%A2%E4%B8%BA%E6%96%B0%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="nav-number">8.</span> <span class="nav-text">字符串内建函数 —— replace函数:将旧字符串替换为新字符串</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%BB%BA%E5%87%BD%E6%95%B0-%E2%80%94%E2%80%94-split%E5%87%BD%E6%95%B0-%E9%80%9A%E8%BF%87%E6%8C%87%E5%AE%9A%E5%88%86%E9%9A%94%E7%AC%A6%E5%AF%B9%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BF%9B%E8%A1%8C%E5%88%87%E7%89%87"><span class="nav-number">9.</span> <span class="nav-text">字符串内建函数 —— split函数:通过指定分隔符对字符串进行切片</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%BB%BA%E5%87%BD%E6%95%B0-%E2%80%94%E2%80%94-capitalize%E4%B8%8Etitle%E5%87%BD%E6%95%B0"><span class="nav-number">10.</span> <span class="nav-text">字符串内建函数 —— capitalize与title函数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%BB%BA%E5%87%BD%E6%95%B0-%E2%80%94%E2%80%94-startswith%E5%87%BD%E6%95%B0-%E6%A3%80%E6%9F%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%98%AF%E5%90%A6%E4%BB%A5%E5%88%B6%E5%AE%9A%E5%AD%90%E4%B8%B2%E5%BC%80%E5%A4%B4"><span class="nav-number">11.</span> <span class="nav-text">字符串内建函数 —— startswith函数:检查字符串是否以制定子串开头</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%BB%BA%E5%87%BD%E6%95%B0-%E2%80%94%E2%80%94-endswith%E5%87%BD%E6%95%B0-%E6%A3%80%E6%9F%A5%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%98%AF%E5%90%A6%E4%BB%A5%E5%88%B6%E5%AE%9A%E5%AD%90%E4%B8%B2%E7%BB%93%E5%B0%BE"><span class="nav-number">12.</span> <span class="nav-text">字符串内建函数 —— endswith函数:检查字符串是否以制定子串结尾</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%BB%BA%E5%87%BD%E6%95%B0-%E2%80%94%E2%80%94-upper%E5%87%BD%E6%95%B0-%E5%B0%86%E5%B0%8F%E5%86%99%E5%AD%97%E6%AF%8D%E8%BD%AC%E4%B8%BA%E5%A4%A7%E5%86%99%E5%AD%97%E6%AF%8D"><span class="nav-number">13.</span> <span class="nav-text">字符串内建函数 —— upper函数:将小写字母转为大写字母</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%BB%BA%E5%87%BD%E6%95%B0-%E2%80%94%E2%80%94-ljust%E5%87%BD%E6%95%B0-%E5%B7%A6%E5%AF%B9%E9%BD%90%E8%80%8C%E4%B8%94%E4%BD%BF%E7%94%A8%E7%A9%BA%E6%A0%BC%E5%A1%AB%E5%85%85%E8%87%B3%E6%8C%87%E5%AE%9A%E9%95%BF%E5%BA%A6%E7%9A%84%E6%96%B0%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="nav-number">14.</span> <span class="nav-text">字符串内建函数 —— ljust函数:左对齐而且使用空格填充至指定长度的新字符串</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%86%85%E5%BB%BA%E5%87%BD%E6%95%B0-%E2%80%94%E2%80%94-strip%E5%87%BD%E6%95%B0-%E6%88%AA%E6%8E%89%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%B7%A6%E5%8F%B3%E8%BE%B9%E7%9A%84%E7%A9%BA%E6%A0%BC%E6%88%96%E6%8C%87%E5%AE%9A%E5%AD%97%E7%AC%A6"><span class="nav-number">15.</span> <span class="nav-text">字符串内建函数 —— strip函数:截掉字符串左右边的空格或指定字符</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5if-elif-else%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="nav-number">16.</span> <span class="nav-text">条件语句if-elif-else的使用:</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E4%BD%BF%E7%94%A8%E2%80%9C-%E2%80%9D%E6%88%96-t%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6-%E7%A9%BA%E4%B8%80%E6%A0%BC"><span class="nav-number">17.</span> <span class="nav-text">字符串中使用“ ”或\t转义字符 空一格</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%97%E8%A1%A8aList%E5%85%83%E7%B4%A0%E8%AE%BF%E9%97%AE%E4%B8%8E%E8%AE%A1%E6%95%B0"><span class="nav-number">18.</span> <span class="nav-text">列表aList元素访问与计数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%97%E8%A1%A8aList%E5%85%83%E7%B4%A0%E7%9A%84%E5%A2%9E%E5%8A%A0%E6%8C%87%E4%BB%A4%E2%80%94append%E3%80%81extend%E3%80%81insert%E3%80%81"><span class="nav-number">19.</span> <span class="nav-text">列表aList元素的增加指令—append、extend、insert、*</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%97%E8%A1%A8aList%E5%85%83%E7%B4%A0%E7%9A%84%E5%88%A0%E5%87%8F%E6%8C%87%E4%BB%A4%E2%80%94pop-%E3%80%81remove"><span class="nav-number">20.</span> <span class="nav-text">列表aList元素的删减指令—pop()、remove()</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9C%A8%E5%88%97%E8%A1%A8%E5%A4%96-x2F-%E4%B8%AD%E5%8E%BB%E4%BD%BF%E7%94%A8%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5%E5%8E%BB%E9%99%A4%E6%8C%87%E5%AE%9A%E5%85%83%E7%B4%A0"><span class="nav-number">21.</span> <span class="nav-text">在列表外&#x2F;中去使用循环语句去除指定元素</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9C%A8%E5%88%97%E8%A1%A8%E4%B8%AD%E4%BD%BF%E7%94%A8count-%E6%8C%87%E4%BB%A4%E6%9F%A5%E8%AF%A2%E6%8C%87%E5%AE%9A%E5%85%83%E7%B4%A0%E6%AC%A1%E6%95%B0"><span class="nav-number">22.</span> <span class="nav-text">在列表中使用count()指令查询指定元素次数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9C%A8%E5%88%97%E8%A1%A8%E4%B8%AD%E4%BD%BF%E7%94%A8len-%E6%8C%87%E4%BB%A4%E6%9F%A5%E8%AF%A2%E6%80%BB%E5%85%83%E7%B4%A0%E6%95%B0%E9%87%8F"><span class="nav-number">23.</span> <span class="nav-text">在列表中使用len()指令查询总元素数量</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9C%A8%E5%88%97%E8%A1%A8%E4%B8%AD%E4%BD%BF%E7%94%A8sort-%E5%87%BD%E6%95%B0%EF%BC%8C%E5%AF%B9%E5%87%BD%E6%95%B0%E4%BB%8E%E5%B0%8F%E5%88%B0%E5%A4%A7%E6%8E%92%E5%BA%8F%E5%B9%B6%E8%BE%93%E5%87%BA"><span class="nav-number">24.</span> <span class="nav-text">在列表中使用sort()函数，对函数从小到大排序并输出</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9C%A8%E5%88%97%E8%A1%A8%E4%B8%AD%E4%BD%BF%E7%94%A8reverse-%E5%87%BD%E6%95%B0%EF%BC%8C%E9%A2%A0%E5%80%92%E5%87%BD%E6%95%B0%E9%A1%BA%E5%BA%8F"><span class="nav-number">25.</span> <span class="nav-text">在列表中使用reverse()函数，颠倒函数顺序</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%83%E7%BB%84%E7%9A%84%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%88%A0%E9%99%A4-%E2%80%94%E2%80%94-%E4%BD%BF%E7%94%A8tuple%E5%87%BD%E6%95%B0%E5%92%8Cdel%E5%88%A0%E9%99%A4"><span class="nav-number">26.</span> <span class="nav-text">元组的创建与删除 —— 使用tuple函数和del删除</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BA%8F%E5%88%97%E8%A7%A3%E5%8C%85-%E2%80%94%E2%80%94-%E5%AF%B9%E4%BA%8E%E5%88%97%E8%A1%A8%E5%92%8C%E5%AD%97%E5%85%B8%E5%90%8C%E6%A0%B7%E6%9C%89%E6%95%88"><span class="nav-number">27.</span> <span class="nav-text">序列解包 —— 对于列表和字典同样有效</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B0%86%E5%85%83%E7%BB%84%E8%BD%AC%E6%8D%A2%E6%88%90%E5%88%97%E8%A1%A8%E7%9A%84%E6%8C%87%E4%BB%A4-%E2%80%94%E2%80%94-list%E6%8C%87%E4%BB%A4"><span class="nav-number">28.</span> <span class="nav-text">将元组转换成列表的指令 —— list指令</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B0%86%E5%85%83%E7%BB%84%E8%BD%AC%E6%8D%A2%E6%88%90%E5%88%97%E8%A1%A8%E5%90%8E%E5%A2%9E%E6%B7%BB-x2F-%E5%87%8F%E5%B0%91%E5%85%83%E7%B4%A0"><span class="nav-number">29.</span> <span class="nav-text">将元组转换成列表后增添&#x2F;减少元素</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%88%A0%E9%99%A4-%E2%80%94%E2%80%94-%E5%88%9B%E9%80%A0%E5%AD%97%E5%85%B8"><span class="nav-number">30.</span> <span class="nav-text">字典创建与删除 —— 创造字典</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%88%A0%E9%99%A4-%E2%80%94%E2%80%94-%E7%9B%B8%E5%85%B3dict%E4%BD%BF%E7%94%A8"><span class="nav-number">31.</span> <span class="nav-text">字典创建与删除 —— 相关dict使用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%88%A0%E9%99%A4-%E2%80%94%E2%80%94-del%E4%BD%BF%E7%94%A8"><span class="nav-number">32.</span> <span class="nav-text">字典创建与删除 —— del使用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%88%A0%E9%99%A4-%E2%80%94%E2%80%94-get%E3%80%81items%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="nav-number">33.</span> <span class="nav-text">字典创建与删除 —— get、items的使用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AD%97%E5%85%B8%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%88%A0%E9%99%A4-%E2%80%94%E2%80%94-del%E3%80%81clear-%E3%80%81pop-%E3%80%81popitem%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="nav-number">34.</span> <span class="nav-text">字典创建与删除 —— del、clear()、pop()、popitem的使用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Python%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="nav-number">35.</span> <span class="nav-text">Python数据类型</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%87%BD%E6%95%B0%E4%BB%A3%E5%85%A5%E6%95%B0%E5%80%BC"><span class="nav-number">36.</span> <span class="nav-text">函数代入数值</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9C%80%E5%B8%B8%E7%94%A8%E7%9A%84%E6%9C%89%E5%8F%82%E6%95%B0%E6%9C%89%E8%BF%94%E5%9B%9E%E5%80%BC%E7%9A%84%E5%87%BD%E6%95%B0"><span class="nav-number">37.</span> <span class="nav-text">最常用的有参数有返回值的函数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E7%BB%93%E5%B7%B4%E5%88%86%E8%AF%8D%E5%BA%93"><span class="nav-number">38.</span> <span class="nav-text">使用结巴分词库</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E5%B7%B4%E5%88%86%E8%AF%8D%E7%9A%84%E7%B2%BE%E7%A1%AE%E6%A8%A1%E5%BC%8F"><span class="nav-number">39.</span> <span class="nav-text">结巴分词的精确模式</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E5%B7%B4%E5%88%86%E8%AF%8D%E7%9A%84%E5%85%A8%E6%A8%A1%E5%BC%8F"><span class="nav-number">40.</span> <span class="nav-text">结巴分词的全模式</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E5%B7%B4%E5%88%86%E8%AF%8D%E7%9A%84%E6%90%9C%E7%B4%A2%E6%A8%A1%E5%BC%8F"><span class="nav-number">41.</span> <span class="nav-text">结巴分词的搜索模式</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E5%B7%B4%E5%88%86%E8%AF%8D%E7%9A%84%E8%AF%BB%E5%8F%96%E8%87%AA%E5%B8%A6%E6%96%87%E4%BB%B6"><span class="nav-number">42.</span> <span class="nav-text">结巴分词的读取自带文件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E5%B7%B4%E5%88%86%E8%AF%8D%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E8%AF%8D%E5%85%B8"><span class="nav-number">43.</span> <span class="nav-text">结巴分词的自定义词典</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E5%B7%B4%E5%88%86%E8%AF%8D%E7%9A%84%E8%AF%8D%E6%80%A7%E6%A0%87%E6%B3%A8"><span class="nav-number">44.</span> <span class="nav-text">结巴分词的词性标注</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E5%B7%B4%E5%88%86%E8%AF%8D%E7%9A%84%E5%91%BD%E5%90%8D%E5%AE%9E%E4%BD%93%E8%AF%86%E5%88%AB"><span class="nav-number">45.</span> <span class="nav-text">结巴分词的命名实体识别</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E5%B7%B4%E5%88%86%E8%AF%8D%E7%9A%84%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90"><span class="nav-number">46.</span> <span class="nav-text">结巴分词的情感分析</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E5%B7%B4%E5%88%86%E8%AF%8D%E7%9A%84%E6%8F%90%E5%8F%96%E6%88%90%E8%AF%AD"><span class="nav-number">47.</span> <span class="nav-text">结巴分词的提取成语</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E5%B7%B4%E5%88%86%E8%AF%8D%E7%9A%84%E6%8F%90%E5%8F%96%E6%88%90%E8%AF%AD%E5%92%8C%E4%BB%8B%E8%AF%8D"><span class="nav-number">48.</span> <span class="nav-text">结巴分词的提取成语和介词</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%AF%BE%E5%A0%82%E4%B8%8A%E8%AF%8D%E4%BA%91%E5%9B%BE%E4%BD%9C%E4%B8%9A"><span class="nav-number">49.</span> <span class="nav-text">课堂上词云图作业</span></a></li></ol></div>
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="茸华似雪"
-      src="/images/avatar.png">
-  <p class="site-author-name" itemprop="name">茸华似雪</p>
-  <div class="site-description" itemprop="description">山有木兮木有枝，心悦君兮君不知</div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">4</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">1</span>
-        <span class="site-state-item-name">标签</span>
-      </div>
-  </nav>
-</div>
-
-
-
-      </div>
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-inner">
-        
-
-        
-
-<div class="copyright">
-  
-  &copy; 2023-04-15-21:00 – 
-  <span itemprop="copyrightYear">2024</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">茸华似雪</span>
-</div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
-  </div>
-
-        
-<div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-</div>
-
-
-
-
-
-
-
-
-      </div>
-    </footer>
-  </div>
 
   
-  <script src="/lib/anime.min.js"></script>
-  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.1/jquery.fancybox.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
 
-<script src="/js/utils.js"></script>
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
 
-<script src="/js/motion.js"></script>
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
 
 
-<script src="/js/schemes/pisces.js"></script>
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
 
 
-<script src="/js/next-boot.js"></script>
 
 
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
 
 
   
 
-
-
-
-  
-<script src="/js/local-search.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-
-  <script async src="/js/cursor/fireworks.js"></script>
-
-
-
-</body><!-- 樱花特效和爱心特效 -->
-  
-<script async src="/js/src/fairyDustCursor.js"></script>
-<script type="text/javascript" src="/js/src/click-live.js"></script>
-<script type="text/javascript" src="/js/src/fireworks.js"></script>
-  
- 
-
-</html>
-<script src="/live2d-widget/autoload.js"></script>
-
-
-
-
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+<script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
