@@ -203,6 +203,78 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://ronghuasixue.com/2023/10/19/%E5%A4%A7%E4%B8%80%E6%9C%9F%E6%9C%AB%E4%BD%9C%E4%B8%9A/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="茸华似雪">
+      <meta itemprop="description" content="山有木兮木有枝，心悦君兮君不知">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="茸华坊">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/10/19/%E5%A4%A7%E4%B8%80%E6%9C%9F%E6%9C%AB%E4%BD%9C%E4%B8%9A/" class="post-title-link" itemprop="url">大一期末作业</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2023-10-19 23:29:21" itemprop="dateCreated datePublished" datetime="2023-10-19T23:29:21+08:00">2023-10-19</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-12-21 17:13:43" itemprop="dateModified" datetime="2023-12-21T17:13:43+08:00">2023-12-21</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="期末"><a href="#期末" class="headerlink" title="期末"></a>期末</h3><h1 id="词性标注"><a href="#词性标注" class="headerlink" title="词性标注"></a>词性标注</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba.posseg <span class="keyword">as</span> pseg</span><br><span class="line">text = <span class="string">&#x27;我杀掉了你的全家&#x27;</span></span><br><span class="line">words = pseg.cut(text)</span><br><span class="line">words = <span class="built_in">list</span>(words)</span><br><span class="line"><span class="built_in">print</span>(words)</span><br></pre></td></tr></table></figure>
+
+<h1 id="增加自定义词典"><a href="#增加自定义词典" class="headerlink" title="增加自定义词典"></a>增加自定义词典</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line">text = <span class="string">&#x27;我是茸华似雪&#x27;</span></span><br><span class="line">words = jieba.lcut(text,cut_all=<span class="literal">True</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;分词前:&#x27;</span>,words)</span><br><span class="line"><span class="comment">##  ===================================</span></span><br><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line">jieba.add_word(<span class="string">&#x27;茸华&#x27;</span>)</span><br><span class="line">text = <span class="string">&#x27;我是茸华似雪&#x27;</span></span><br><span class="line">words = jieba.lcut(text,cut_all=<span class="literal">True</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;分词后:&#x27;</span>,words)</span><br></pre></td></tr></table></figure>
+
+<h1 id="词频前10排序"><a href="#词频前10排序" class="headerlink" title="词频前10排序"></a>词频前10排序</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;C:/Users/69099/Desktop/11.txt&quot;</span>,<span class="string">&quot;r&quot;</span>,encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> file:		<span class="comment"># 打开文件</span></span><br><span class="line">    txt = file.read()									                        <span class="comment"># 读取文件</span></span><br><span class="line">text = jieba.lcut(txt)                                                          <span class="comment"># 分词</span></span><br><span class="line">counts = &#123;&#125;                                                                     <span class="comment"># 统计词频</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> text:</span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(i) &gt; <span class="number">1</span>:                                                              <span class="comment"># 统计长度为1的词</span></span><br><span class="line">        counts[i] = counts.get(i,<span class="number">0</span>) + <span class="number">1</span></span><br><span class="line">Text = <span class="built_in">sorted</span>(counts.items(),key = <span class="keyword">lambda</span> x:x[<span class="number">1</span>],reverse = <span class="literal">True</span>)                <span class="comment"># 词频排序</span></span><br><span class="line"><span class="built_in">print</span>(Text[:<span class="number">10</span>])    </span><br></pre></td></tr></table></figure>
+
+<h1 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt                                                 <span class="comment"># 导入matplotlib库</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np                                                              <span class="comment"># 导入numpy库</span></span><br><span class="line">plt.figure(figsize=(<span class="number">8</span>, <span class="number">6</span>), dpi=<span class="number">100</span>)                                             <span class="comment"># 创建一个点数为 8 x 6 的窗口, 并设置分辨率为 80像素/每英寸</span></span><br><span class="line">plt.subplot(<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>)                                                            <span class="comment"># 再创建一个规格为 1 x 1 的子图</span></span><br><span class="line">N = <span class="number">6</span>                                                                           <span class="comment"># 柱子总数</span></span><br><span class="line">values = (<span class="number">250</span>, <span class="number">320</span>, <span class="number">340</span>, <span class="number">200</span>, <span class="number">410</span>, <span class="number">500</span>)                                         <span class="comment"># 包含每个柱子对应值的序列</span></span><br><span class="line">index = np.arange(N)                                                            <span class="comment"># 包含每个柱子下标的序列</span></span><br><span class="line">width = <span class="number">0.65</span>                                                                    <span class="comment"># 柱子的宽度</span></span><br><span class="line">p2 = plt.bar(index, values, width, label=<span class="string">&quot;rainfall&quot;</span>, color=<span class="string">&quot;#87CEFA&quot;</span>)           <span class="comment"># 绘制柱状图, 每根柱子的颜色为紫罗兰色</span></span><br><span class="line">plt.xlabel(<span class="string">&#x27;Months&#x27;</span>)                                                            <span class="comment"># 设置横轴标签</span></span><br><span class="line">plt.ylabel(<span class="string">&#x27;rainfall (mm)&#x27;</span>)                                                     <span class="comment"># 设置纵轴标签</span></span><br><span class="line">plt.title(<span class="string">&#x27;Monthly average rainfall&#x27;</span>)                                           <span class="comment"># 添加标题</span></span><br><span class="line">plt.xticks(index, (<span class="string">&#x27;Jan&#x27;</span>, <span class="string">&#x27;Fub&#x27;</span>, <span class="string">&#x27;Mar&#x27;</span>, <span class="string">&#x27;Apr&#x27;</span>, <span class="string">&#x27;May&#x27;</span>, <span class="string">&#x27;Jun&#x27;</span>))                   <span class="comment"># 添加纵横轴的刻度</span></span><br><span class="line">plt.yticks(np.arange(<span class="number">0</span>, <span class="number">810</span>, <span class="number">100</span>))</span><br><span class="line">plt.legend(loc=<span class="string">&quot;upper right&quot;</span>)                                                   <span class="comment"># 添加图例</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+
+<h1 id="词云图"><a href="#词云图" class="headerlink" title="词云图"></a>词云图</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> wordcloud <span class="keyword">import</span> WordCloud                                                 <span class="comment"># 导入词云图库</span></span><br><span class="line"><span class="keyword">import</span> jieba                                                                    <span class="comment"># 导入jieba分词库</span></span><br><span class="line"><span class="keyword">import</span> jieba.analyse                                                            <span class="comment"># 导入jieba的核心词提取analyse模块</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np                                                              <span class="comment"># 导入NumPy函数库</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image                                                           <span class="comment"># 导入PIL库中Image</span></span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt                                                 <span class="comment"># 导入matplotlib.pyplot库</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;C:/Users/69099/Desktop/11.txt&quot;</span>,<span class="string">&quot;r&quot;</span>,encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> file:		<span class="comment"># 打开文件</span></span><br><span class="line">    txt = file.read()									                        <span class="comment"># 读取文件</span></span><br><span class="line">    seg_list = jieba.analyse.extract_tags(txt)                                  <span class="comment"># 关键词的提取</span></span><br><span class="line">    wc_mask = np.array(Image.<span class="built_in">open</span>(<span class="string">&quot;C:/Users/69099/Desktop/QQ图片20231221152454.png&quot;</span>))</span><br><span class="line">    wc = WordCloud(font_path=<span class="string">&quot;C:\Windows\Fonts\simkai.TTF&quot;</span>,	                    <span class="comment"># 设置属性</span></span><br><span class="line">                          collocations=<span class="literal">False</span>,</span><br><span class="line">                          background_color=<span class="string">&quot;white&quot;</span>,</span><br><span class="line">                          width=<span class="number">1000</span>,</span><br><span class="line">                          height=<span class="number">800</span>,</span><br><span class="line">                          max_font_size=<span class="number">100</span>,</span><br><span class="line">                          contour_color = <span class="string">&#x27;Blue&#x27;</span>,</span><br><span class="line">                          mask = wc_mask,                                       <span class="comment"># 设置背景图</span></span><br><span class="line">                          contour_width = <span class="number">2</span>,                                    <span class="comment"># 词云边框大小</span></span><br><span class="line">                          max_words=<span class="number">100</span>).generate(txt)</span><br><span class="line">plt.figure(figsize = [<span class="number">10</span>,<span class="number">10</span>])</span><br><span class="line">plt.imshow(wc)</span><br><span class="line">plt.axis(<span class="string">&quot;off&quot;</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://ronghuasixue.com/2023/10/19/%E5%A4%A7%E5%AD%A6%E4%B8%ADPyrhon%E6%95%B0%E6%8D%AE%E5%9F%BA%E7%A1%80%E4%B8%8E%E6%8C%96%E6%8E%98/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -369,78 +441,6 @@ plt.axis(&quot;off&quot;)
 plt.show()
 </code></pre>
 
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://ronghuasixue.com/2023/10/19/%E5%A4%A7%E4%B8%80%E6%9C%9F%E6%9C%AB%E4%BD%9C%E4%B8%9A/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="茸华似雪">
-      <meta itemprop="description" content="山有木兮木有枝，心悦君兮君不知">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="茸华坊">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/10/19/%E5%A4%A7%E4%B8%80%E6%9C%9F%E6%9C%AB%E4%BD%9C%E4%B8%9A/" class="post-title-link" itemprop="url">大一期末作业</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2023-10-19 23:29:21" itemprop="dateCreated datePublished" datetime="2023-10-19T23:29:21+08:00">2023-10-19</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-12-21 17:13:43" itemprop="dateModified" datetime="2023-12-21T17:13:43+08:00">2023-12-21</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="期末"><a href="#期末" class="headerlink" title="期末"></a>期末</h3><h1 id="词性标注"><a href="#词性标注" class="headerlink" title="词性标注"></a>词性标注</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba.posseg <span class="keyword">as</span> pseg</span><br><span class="line">text = <span class="string">&#x27;我杀掉了你的全家&#x27;</span></span><br><span class="line">words = pseg.cut(text)</span><br><span class="line">words = <span class="built_in">list</span>(words)</span><br><span class="line"><span class="built_in">print</span>(words)</span><br></pre></td></tr></table></figure>
-
-<h1 id="增加自定义词典"><a href="#增加自定义词典" class="headerlink" title="增加自定义词典"></a>增加自定义词典</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line">text = <span class="string">&#x27;我是茸华似雪&#x27;</span></span><br><span class="line">words = jieba.lcut(text,cut_all=<span class="literal">True</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;分词前:&#x27;</span>,words)</span><br><span class="line"><span class="comment">##  ===================================</span></span><br><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line">jieba.add_word(<span class="string">&#x27;茸华&#x27;</span>)</span><br><span class="line">text = <span class="string">&#x27;我是茸华似雪&#x27;</span></span><br><span class="line">words = jieba.lcut(text,cut_all=<span class="literal">True</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;分词后:&#x27;</span>,words)</span><br></pre></td></tr></table></figure>
-
-<h1 id="词频前10排序"><a href="#词频前10排序" class="headerlink" title="词频前10排序"></a>词频前10排序</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;C:/Users/69099/Desktop/11.txt&quot;</span>,<span class="string">&quot;r&quot;</span>,encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> file:		<span class="comment"># 打开文件</span></span><br><span class="line">    txt = file.read()									                        <span class="comment"># 读取文件</span></span><br><span class="line">text = jieba.lcut(txt)                                                          <span class="comment"># 分词</span></span><br><span class="line">counts = &#123;&#125;                                                                     <span class="comment"># 统计词频</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> text:</span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(i) &gt; <span class="number">1</span>:                                                              <span class="comment"># 统计长度为1的词</span></span><br><span class="line">        counts[i] = counts.get(i,<span class="number">0</span>) + <span class="number">1</span></span><br><span class="line">Text = <span class="built_in">sorted</span>(counts.items(),key = <span class="keyword">lambda</span> x:x[<span class="number">1</span>],reverse = <span class="literal">True</span>)                <span class="comment"># 词频排序</span></span><br><span class="line"><span class="built_in">print</span>(Text[:<span class="number">10</span>])    </span><br></pre></td></tr></table></figure>
-
-<h1 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt                                                 <span class="comment"># 导入matplotlib库</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np                                                              <span class="comment"># 导入numpy库</span></span><br><span class="line">plt.figure(figsize=(<span class="number">8</span>, <span class="number">6</span>), dpi=<span class="number">100</span>)                                             <span class="comment"># 创建一个点数为 8 x 6 的窗口, 并设置分辨率为 80像素/每英寸</span></span><br><span class="line">plt.subplot(<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>)                                                            <span class="comment"># 再创建一个规格为 1 x 1 的子图</span></span><br><span class="line">N = <span class="number">6</span>                                                                           <span class="comment"># 柱子总数</span></span><br><span class="line">values = (<span class="number">250</span>, <span class="number">320</span>, <span class="number">340</span>, <span class="number">200</span>, <span class="number">410</span>, <span class="number">500</span>)                                         <span class="comment"># 包含每个柱子对应值的序列</span></span><br><span class="line">index = np.arange(N)                                                            <span class="comment"># 包含每个柱子下标的序列</span></span><br><span class="line">width = <span class="number">0.65</span>                                                                    <span class="comment"># 柱子的宽度</span></span><br><span class="line">p2 = plt.bar(index, values, width, label=<span class="string">&quot;rainfall&quot;</span>, color=<span class="string">&quot;#87CEFA&quot;</span>)           <span class="comment"># 绘制柱状图, 每根柱子的颜色为紫罗兰色</span></span><br><span class="line">plt.xlabel(<span class="string">&#x27;Months&#x27;</span>)                                                            <span class="comment"># 设置横轴标签</span></span><br><span class="line">plt.ylabel(<span class="string">&#x27;rainfall (mm)&#x27;</span>)                                                     <span class="comment"># 设置纵轴标签</span></span><br><span class="line">plt.title(<span class="string">&#x27;Monthly average rainfall&#x27;</span>)                                           <span class="comment"># 添加标题</span></span><br><span class="line">plt.xticks(index, (<span class="string">&#x27;Jan&#x27;</span>, <span class="string">&#x27;Fub&#x27;</span>, <span class="string">&#x27;Mar&#x27;</span>, <span class="string">&#x27;Apr&#x27;</span>, <span class="string">&#x27;May&#x27;</span>, <span class="string">&#x27;Jun&#x27;</span>))                   <span class="comment"># 添加纵横轴的刻度</span></span><br><span class="line">plt.yticks(np.arange(<span class="number">0</span>, <span class="number">810</span>, <span class="number">100</span>))</span><br><span class="line">plt.legend(loc=<span class="string">&quot;upper right&quot;</span>)                                                   <span class="comment"># 添加图例</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-
-<h1 id="词云图"><a href="#词云图" class="headerlink" title="词云图"></a>词云图</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> wordcloud <span class="keyword">import</span> WordCloud                                                 <span class="comment"># 导入词云图库</span></span><br><span class="line"><span class="keyword">import</span> jieba                                                                    <span class="comment"># 导入jieba分词库</span></span><br><span class="line"><span class="keyword">import</span> jieba.analyse                                                            <span class="comment"># 导入jieba的核心词提取analyse模块</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np                                                              <span class="comment"># 导入NumPy函数库</span></span><br><span class="line"><span class="keyword">from</span> PIL <span class="keyword">import</span> Image                                                           <span class="comment"># 导入PIL库中Image</span></span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt                                                 <span class="comment"># 导入matplotlib.pyplot库</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;C:/Users/69099/Desktop/11.txt&quot;</span>,<span class="string">&quot;r&quot;</span>,encoding=<span class="string">&quot;utf-8&quot;</span>) <span class="keyword">as</span> file:		<span class="comment"># 打开文件</span></span><br><span class="line">    txt = file.read()									                        <span class="comment"># 读取文件</span></span><br><span class="line">    seg_list = jieba.analyse.extract_tags(txt)                                  <span class="comment"># 关键词的提取</span></span><br><span class="line">    wc_mask = np.array(Image.<span class="built_in">open</span>(<span class="string">&quot;C:/Users/69099/Desktop/QQ图片20231221152454.png&quot;</span>))</span><br><span class="line">    wc = WordCloud(font_path=<span class="string">&quot;C:\Windows\Fonts\simkai.TTF&quot;</span>,	                    <span class="comment"># 设置属性</span></span><br><span class="line">                          collocations=<span class="literal">False</span>,</span><br><span class="line">                          background_color=<span class="string">&quot;white&quot;</span>,</span><br><span class="line">                          width=<span class="number">1000</span>,</span><br><span class="line">                          height=<span class="number">800</span>,</span><br><span class="line">                          max_font_size=<span class="number">100</span>,</span><br><span class="line">                          contour_color = <span class="string">&#x27;Blue&#x27;</span>,</span><br><span class="line">                          mask = wc_mask,                                       <span class="comment"># 设置背景图</span></span><br><span class="line">                          contour_width = <span class="number">2</span>,                                    <span class="comment"># 词云边框大小</span></span><br><span class="line">                          max_words=<span class="number">100</span>).generate(txt)</span><br><span class="line">plt.figure(figsize = [<span class="number">10</span>,<span class="number">10</span>])</span><br><span class="line">plt.imshow(wc)</span><br><span class="line">plt.axis(<span class="string">&quot;off&quot;</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
       
     </div>
 
