@@ -1,0 +1,13 @@
+/* 修改大标题（副标题）的颜色 */
+#subtitle {
+    color: #ff0000 !important; /* 颜色 */
+}
+
+/* 同时修改打字机光标的颜色，保持一致 */
+.typed-cursor {
+    color: #ff0000 !important; 
+}
+/* 下面的meta元素（时间、字数等） */
+#post-info .post-meta {
+    color: #FFFFFF !important;
+}

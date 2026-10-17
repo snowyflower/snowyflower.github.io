@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>页中标题和元标题的颜色</title>
+      <link href="/2026/10/18/%E4%BF%AE%E6%94%B9%E6%A0%87%E9%A2%98%E5%92%8C%E5%85%83%E6%A0%87%E9%A2%98%E9%A2%9C%E8%89%B2/"/>
+      <url>/2026/10/18/%E4%BF%AE%E6%94%B9%E6%A0%87%E9%A2%98%E5%92%8C%E5%85%83%E6%A0%87%E9%A2%98%E9%A2%9C%E8%89%B2/</url>
+      
+        <content type="html"><![CDATA[<figure class="shiki Css"><div class='codeblock'><div class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></div><div class="code"><pre class="shiki one-dark-pro"><code><span class="line"><span>/* 修改大标题（副标题）的颜色 */</span></span><span class="line"><span>#subtitle {</span></span><span class="line"><span>    color: #ff0000 !important; /* 颜色 */</span></span><span class="line"><span>}</span></span><span class="line"><span></span></span><span class="line"><span>/* 同时修改打字机光标的颜色，保持一致 */</span></span><span class="line"><span>.typed-cursor {</span></span><span class="line"><span>    color: #ff0000 !important; </span></span><span class="line"><span>}</span></span><span class="line"><span>/* 下面的meta元素（时间、字数等） */</span></span><span class="line"><span>#post-info .post-meta {</span></span><span class="line"><span>    color: #FFFFFF !important;</span></span><span class="line"><span>}</span></span></code></pre></div></div></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>链接卡片</title>
       <link href="/2026/10/18/%E9%93%BE%E6%8E%A5%E5%8D%A1%E7%89%87%E6%A0%B7%E5%BC%8F/"/>
       <url>/2026/10/18/%E9%93%BE%E6%8E%A5%E5%8D%A1%E7%89%87%E6%A0%B7%E5%BC%8F/</url>
