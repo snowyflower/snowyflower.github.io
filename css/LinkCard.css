@@ -1,0 +1,92 @@
+:root {
+  --linkcard-bg-color: #eeefef;
+}
+[data-user-color-scheme="dark"] {
+  --linkcard-bg-color: #242a38;
+}
+
+.LinkCard, .LinkCard:hover {
+    text-decoration: none;
+    border: none !important;
+    color: inherit !important;
+}
+.LinkCard {
+    position: relative;
+    display: block;
+    margin: 1em auto;
+    width: 60%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    max-width: 100%;
+    overflow: hidden;
+    color: inherit;
+    text-decoration: none;
+    background: var(--linkcard-bg-color);
+    transition: transform 0.4s ease-in;
+}
+.ztext { word-break: break-word; line-height: 1.6; }
+.LinkCard-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: inherit;
+    background-color: var(--linkcard-bg-color);
+}
+.LinkCard-text {
+    overflow: hidden;
+    flex: 1;
+    max-width: calc(100% - 80px); 
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.LinkCard-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: calc(16px * 1.25 * 2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    color: inherit;
+    white-space: normal;
+    margin-left: 5px;
+}
+.LinkCard-meta {
+    display: flex;
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.LinkCard-imageCell {
+    margin-left: 10px;
+    border-radius: 6px;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0; 
+    overflow: hidden;
+}
+.LinkCard-image {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: inherit;
+    margin: 0 !important;
+    object-fit: cover;
+    object-position: center center;
+}
+.LinkCard:hover {
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 0 16px 0 rgba(34, 135, 250, 0.8);
+}

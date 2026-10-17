@@ -1,0 +1,22 @@
+.markdown-body code,
+.markdown-body pre {
+  font-family: "JetBrains Mono", "Fira Code", "Noto Sans SC", "Source Code Pro", monospace !important;
+  line-height: 1 !important;
+}
+
+/* 以下样式给 shiki 代码块使用 */
+.code-expand-btn i {
+  color: #ffffff !important; /* 展开或隐藏代码块的按钮颜色 */
+}
+:root {
+  --hlnumber-color: #a5a5a5 !important; /* 行号颜色 */
+  --hl-bg: #1f1f1f !important; /* 代码块背景颜色 */
+  --hlnumber-bg: #1f1f1f !important; /* 行号背景颜色 */
+  --hlexpand-bg: linear-gradient(
+	180deg, 
+	rgba(255, 255, 255, 0.1), 
+	rgba(40, 44, 52, 0.9));
+}
+pre code {
+  color: #b9b9b9; /* 没有颜色方案的代码语言的表现色 */
+}

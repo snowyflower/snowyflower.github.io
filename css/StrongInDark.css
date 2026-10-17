@@ -1,0 +1,14 @@
+:root {
+  --my-post-text-color: #2c3e50;
+}
+[data-user-color-scheme="dark"] {
+  --my-post-text-color: #feeed6;
+}
+
+
+.page-content strong, .post-content strong {
+    color: var(--my-post-text-color);
+}
+.page-content em, .post-content em {
+    color: var(--my-post-text-color);
+}
