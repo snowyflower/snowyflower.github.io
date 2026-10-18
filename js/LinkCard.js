@@ -25,7 +25,7 @@ window.onload = function () {
             </span>`;
 
         if (!logourl) {
-            if (link.startsWith('http://localhost:4000/') || link.startsWith('https://youyeyejie.com/')) {
+            if (link.startsWith('http://localhost:4000/') || link.startsWith('https://ronghuasixue.com/')) {
                 var img = LinkCard.getElementsByClassName('LinkCard-image')[0];
                 img.src = '/img/avatar/avatar.webp';
             }
