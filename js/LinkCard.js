@@ -1,4 +1,4 @@
-window.onload = function () {
+document.addEventListener("DOMContentLoaded", function () {
     var LinkCards = document.getElementsByClassName('LinkCard');
     for (var i = 0; i < LinkCards.length; i++) {
         var LinkCard = LinkCards[i];
@@ -35,4 +35,4 @@ window.onload = function () {
             }
         }
     }
-}
+});
