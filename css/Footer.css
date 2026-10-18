@@ -1,0 +1,14 @@
+.footer-inner {
+    padding: 1rem 0 2rem 0;
+    font-family: serif !important;
+    font-size: 0.85rem !important;
+    margin: 0.15rem 0.15rem !important;
+}
+.powered-by {
+    font-size: 1rem !important;
+}
+span#busuanzi_container_site_pv,
+span#busuanzi_container_site_uv,
+span#busuanzi_container_page_pv {
+    display: inline !important;
+}

@@ -1,0 +1,29 @@
+:root {
+    --sitestat-bg-color: #ffffffa4;
+}
+[data-user-color-scheme="dark"] {
+    --sitestat-bg-color: #242a38a4;
+}
+
+#site-stats {
+    margin: 4rem auto 0 auto;
+    padding: 15px 20px;
+    top: 4rem;
+    background-color: var(--sitestat-bg-color);
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    display: block;
+    width: 240px;
+}
+
+.sidebar-element {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
+    font-size: 0.95rem;
+    cursor: default;
+}
+.sidebar-element:hover {
+    color: #83aecc;
+}
