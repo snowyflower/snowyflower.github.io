@@ -63,6 +63,7 @@
 <link rel="stylesheet" href="/css/FrostedGlassBg.css">
 <link rel="stylesheet" href="/css/LinkCard.css">
 <link rel="stylesheet" href="/css/SubtitleColorEdit.css">
+<link rel="stylesheet" href="/css/CodeInLine.css">
 
 
 
@@ -253,7 +254,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2026/10/18/%E4%BF%AE%E6%94%B9%E6%A0%87%E9%A2%98%E5%92%8C%E5%85%83%E6%A0%87%E9%A2%98%E9%A2%9C%E8%89%B2/" target="_self">
         <div>
-          1234567891011#subtitle {     color: #ff0000 !important; /* 标题颜色 */ }  .typed-cursor {     color: #ff0000 !important; /* 同时修改打字机光标的颜色，保持一致 */ }  #post-info .post-meta {     color: #FFFFFF !important; /
+          这个功能实现起来非常简单，只需要在 source/css/ 目录下新建一个 SubtitleColorEdit.css 文件（如果不存在该目录则需要先创建），代码如下： 1234567891011#subtitle {     color: #ff0000 !important; /* 标题颜色 */ }  .typed-cursor {     color: #ff0000 !important
         </div>
       </a>
 
@@ -293,7 +294,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2026/10/18/%E9%93%BE%E6%8E%A5%E5%8D%A1%E7%89%87%E6%A0%B7%E5%BC%8F/" target="_self">
         <div>
-          链接卡片样式在 Fluid 主题中，没有内置的链接卡片样式，因此根据有野野芥的处理方式，为链接添加了卡片样式，使其背景颜色能跟随主题的日夜模式切换，且鼠标悬停时有放大效果。Hexo改良版知乎“外链卡片” 1&#x3C;a href="" logourl="" class="LinkCard">标题&#x3C;/a>  后续发现博主在尝试本地和线上部署后，发现 HTML 标签确实存在，但是 Link
+          链接卡片样式在 Fluid 主题中，没有内置的链接卡片样式，因此根据有野野芥的处理方式，为链接添加了卡片样式，使其背景颜色能跟随主题的日夜模式切换，且鼠标悬停时有放大效果。Hexo改良版知乎“外链卡片” 1&#x3C;a href="" logourl="" class="LinkCard">标题&#x3C;/a>  后续发现在尝试本地和线上部署后，发现 HTML 中标签确实存在，但是 LinkC
         </div>
       </a>
 
@@ -455,7 +456,7 @@
       
       <a class="index-excerpt index-excerpt__noimg" href="/2023/06/28/hello-world/" target="_self">
         <div>
-          Welcome to RongHuaSiXue.com!欢迎来到我的个人博客——茸华似雪的茸华坊Why print Hello World“Hello, world”程序是指在计算机屏幕上输出“Hello world”这行字符串的计算机程序，“Hello World”的中文意思是“你好，世界。”。这个例程在 Brian Kernighan 和 Dennis M. Ritchie合著的The C P
+          Why print Hello World“Hello, world&quot;程序是指在计算机屏幕上输出“Hello world”这行字符串的计算机程序，“Hello World”的中文意思是“你好，世界。”。这个例程在 Brian Kernighan 和 Dennis M. Ritchie合著的《The C Programme Language》使用而广泛流行。因为它的简洁，实用，并包含了一个
         </div>
       </a>
 
@@ -596,7 +597,7 @@
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script>
+
 <script src="https://cdn.jsdelivr.net/npm/hexo-shiki-plugin@latest/dist/lib/codeblock.js"></script>
 
   <script>
@@ -608,4 +609,4 @@
     ""
   );
   </script>
-  <script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
+  <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script><script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>

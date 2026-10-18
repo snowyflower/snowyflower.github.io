@@ -19,15 +19,15 @@
   <meta name="author" content="茸华似雪">
   <meta name="keywords" content="">
   
-    <meta name="description" content="1234567891011#subtitle {     color: #ff0000 !important; &#x2F;* 标题颜色 *&#x2F; }  .typed-cursor {     color: #ff0000 !important; &#x2F;* 同时修改打字机光标的颜色，保持一致 *&#x2F; }  #post-info .post-meta {     color: #FFFFFF !important; &#x2F;">
+    <meta name="description" content="这个功能实现起来非常简单，只需要在 source&#x2F;css&#x2F; 目录下新建一个 SubtitleColorEdit.css 文件（如果不存在该目录则需要先创建），代码如下： 1234567891011#subtitle {     color: #ff0000 !important; &#x2F;* 标题颜色 *&#x2F; }  .typed-cursor {     color: #ff0000 !important">
 <meta property="og:type" content="article">
 <meta property="og:title" content="页中标题和元标题的颜色">
 <meta property="og:url" content="http://ronghuasixue.com/2026/10/18/%E4%BF%AE%E6%94%B9%E6%A0%87%E9%A2%98%E5%92%8C%E5%85%83%E6%A0%87%E9%A2%98%E9%A2%9C%E8%89%B2/index.html">
 <meta property="og:site_name" content="茸华似雪的炼金工坊">
-<meta property="og:description" content="1234567891011#subtitle {     color: #ff0000 !important; &#x2F;* 标题颜色 *&#x2F; }  .typed-cursor {     color: #ff0000 !important; &#x2F;* 同时修改打字机光标的颜色，保持一致 *&#x2F; }  #post-info .post-meta {     color: #FFFFFF !important; &#x2F;">
+<meta property="og:description" content="这个功能实现起来非常简单，只需要在 source&#x2F;css&#x2F; 目录下新建一个 SubtitleColorEdit.css 文件（如果不存在该目录则需要先创建），代码如下： 1234567891011#subtitle {     color: #ff0000 !important; &#x2F;* 标题颜色 *&#x2F; }  .typed-cursor {     color: #ff0000 !important">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2026-10-17T19:24:21.000Z">
-<meta property="article:modified_time" content="2026-10-17T19:36:32.076Z">
+<meta property="article:modified_time" content="2026-10-18T16:39:37.421Z">
 <meta property="article:author" content="茸华似雪">
 <meta property="article:tag" content="Css">
 <meta name="twitter:card" content="summary_large_image">
@@ -72,6 +72,7 @@
 <link rel="stylesheet" href="/css/FrostedGlassBg.css">
 <link rel="stylesheet" href="/css/LinkCard.css">
 <link rel="stylesheet" href="/css/SubtitleColorEdit.css">
+<link rel="stylesheet" href="/css/CodeInLine.css">
 
 
 
@@ -239,7 +240,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          48 字
+          115 字
         
       </span>
     
@@ -292,7 +293,8 @@
             
               <div class="markdown-body">
                 
-                <figure class="shiki css"><div class='codeblock'><div class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></div><div class="code"><pre class="shiki one-dark-pro"><code><span class="line"><span style="color:#61AFEF">#subtitle</span><span style="color:#ABB2BF"> {</span></span>
+                <p>这个功能实现起来非常简单，只需要在 <code>source/css/</code> 目录下新建一个 <code>SubtitleColorEdit.css</code> 文件（如果不存在该目录则需要先创建），代码如下：</p>
+<figure class="shiki css"><div class='codeblock'><div class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></div><div class="code"><pre class="shiki one-dark-pro"><code><span class="line"><span style="color:#61AFEF">#subtitle</span><span style="color:#ABB2BF"> {</span></span>
 <span class="line"><span style="color:#ABB2BF">    color: </span><span style="color:#D19A66">#ff0000</span><span style="color:#C678DD"> !important</span><span style="color:#ABB2BF">; </span><span style="color:#7F848E;font-style:italic">/* 标题颜色 */</span></span>
 <span class="line"><span style="color:#ABB2BF">}</span></span>
 <span class="line"></span>
@@ -303,6 +305,9 @@
 <span class="line"><span style="color:#61AFEF">#post-info</span><span style="color:#D19A66"> .post-meta</span><span style="color:#ABB2BF"> {</span></span>
 <span class="line"><span style="color:#ABB2BF">    color: </span><span style="color:#D19A66">#FFFFFF</span><span style="color:#C678DD"> !important</span><span style="color:#ABB2BF">; </span><span style="color:#7F848E;font-style:italic">/* 下面的meta元素（时间、字数等） */</span></span>
 <span class="line"><span style="color:#ABB2BF">}</span></span></code></pre></div></div></figure>
+<p>并在 <code>_config.fluid.yml</code> 文件的 <code>custom_css</code> 部分添加以下内容：</p>
+<figure class="shiki yaml"><div class='codeblock'><div class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></div><div class="code"><pre class="shiki one-dark-pro"><code><span class="line"><span style="color:#E06C75">custom_css</span><span style="color:#ABB2BF">:</span></span>
+<span class="line"><span style="color:#ABB2BF">  - </span><span style="color:#98C379">/css/SubtitleColorEdit.css</span></span></code></pre></div></div></figure>
                 
               </div>
             
@@ -635,7 +640,7 @@
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script>
+
 <script src="https://cdn.jsdelivr.net/npm/hexo-shiki-plugin@latest/dist/lib/codeblock.js"></script>
 
   <script>
@@ -647,4 +652,4 @@
     ""
   );
   </script>
-  <script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
+  <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script><script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
