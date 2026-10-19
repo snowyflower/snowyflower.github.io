@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ronghuasixue.com/about/index.html</loc>
+    
+    <lastmod>2026-10-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://ronghuasixue.com/html/RightMenu.html</loc>
     
     <lastmod>2026-10-19</lastmod>
@@ -84,15 +93,6 @@
   
   <url>
     <loc>http://ronghuasixue.com/2026/10/18/%E9%93%BE%E6%8E%A5%E5%8D%A1%E7%89%87%E6%A0%B7%E5%BC%8F/</loc>
-    
-    <lastmod>2026-10-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ronghuasixue.com/about/index.html</loc>
     
     <lastmod>2026-10-18</lastmod>
     
@@ -199,14 +199,14 @@
   </url>
   
   <url>
-    <loc>http://ronghuasixue.com/categories/%E4%BD%9C%E4%B8%9A/</loc>
+    <loc>http://ronghuasixue.com/categories/%E8%87%AA%E5%AE%9A%E4%B9%89Js/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://ronghuasixue.com/categories/%E8%87%AA%E5%AE%9A%E4%B9%89Js/</loc>
+    <loc>http://ronghuasixue.com/categories/%E4%BD%9C%E4%B8%9A/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
