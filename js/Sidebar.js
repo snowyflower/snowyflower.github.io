@@ -94,7 +94,7 @@ function judgeSidebarHidden() {
 }
 
 if (document.querySelector('meta[property="og:url"][content="https://ronghuasixue.com/index.html"]') ||
-    document.querySelector('meta[property="og:url"][content^="https://ronghuasixue.com/page/"]')) {
+    document.querySelector('meta[property="og:url"][content^="https://ronghuasixue.com"]')) {
     document.addEventListener('DOMContentLoaded', createSidebar);
     window.addEventListener('resize', () => {
         judgeSidebarHidden();
