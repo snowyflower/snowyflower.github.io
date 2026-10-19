@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ronghuasixue.com/html/RightMenu.html</loc>
+    
+    <lastmod>2026-10-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ronghuasixue.com/2023/09/30/My-New-Way/</loc>
+    
+    <lastmod>2026-10-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://ronghuasixue.com/html/Footer.html</loc>
     
     <lastmod>2026-10-19</lastmod>
@@ -30,15 +48,6 @@
   
   <url>
     <loc>http://ronghuasixue.com/2023/06/28/hello-world/</loc>
-    
-    <lastmod>2026-10-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://ronghuasixue.com/2023/09/30/My-New-Way/</loc>
     
     <lastmod>2026-10-18</lastmod>
     
@@ -176,7 +185,7 @@
 
   
   <url>
-    <loc>http://ronghuasixue.com/categories/%E4%BD%9C%E4%B8%9A/</loc>
+    <loc>http://ronghuasixue.com/categories/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -190,14 +199,14 @@
   </url>
   
   <url>
-    <loc>http://ronghuasixue.com/categories/%E8%87%AA%E5%AE%9A%E4%B9%89Js/</loc>
+    <loc>http://ronghuasixue.com/categories/%E4%BD%9C%E4%B8%9A/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://ronghuasixue.com/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>http://ronghuasixue.com/categories/%E8%87%AA%E5%AE%9A%E4%B9%89Js/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
