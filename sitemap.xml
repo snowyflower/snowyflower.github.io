@@ -176,13 +176,6 @@
 
   
   <url>
-    <loc>http://ronghuasixue.com/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2026-10-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://ronghuasixue.com/categories/%E4%BD%9C%E4%B8%9A/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -198,6 +191,13 @@
   
   <url>
     <loc>http://ronghuasixue.com/categories/%E8%87%AA%E5%AE%9A%E4%B9%89Js/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://ronghuasixue.com/categories/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
